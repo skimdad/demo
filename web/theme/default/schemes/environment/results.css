@@ -1,0 +1,120 @@
+/**
+* eDirectory - Result Pages ( Modules )
+*
+* @package			layout
+* @filesource		front.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 06, 2011
+*			
+*/
+		
+/** Browse by Category */
+
+.browse-category
+{ background:#271704; border-top:1px solid #6A3C07; }
+	
+	.browse-category li span
+	{ color:#FFF; }
+		
+		.browse-category li ul li a:link, .browse-category li ul li a:visited, .browse-category li ul li a:active
+		{ color:#447DAA; }
+		
+			.browse-category li ul li span
+			{ color:#536979; }
+				
+/** Results Info */	
+
+.search-info strong
+{ color:#FFF; }
+	
+/** Summary */	
+
+.summary
+{ background:#271704; border:1px solid #6B400D; }
+
+/** Summary > share */
+
+	.summary .share
+	{ background:#6B400D; border-bottom:1px solid #6B400D; }
+		
+		.summary .share ul li, .summary .share-social li
+		{ color:#EEE; }
+
+/** Summary > items > title */
+	
+	.summary .title h3
+	{ color:#F4A44C; }
+		
+		.summary .title h3 a.map-link:link, .summary .title h3 a.map-link:visited, .summary .title h3 a.map-link:active
+		{ color:#C0E96B; }
+		
+			.summary .title h3 a.map-link:hover
+			{ color:#F4A44C; }
+		
+/** Summary > items > rate */
+		
+	.summary .rate a, .summary .rate span
+	{ color:#DFF0B0; }
+	
+		.summary .rate p
+		{ clear:both; }
+	
+			.summary .rate p a
+			{ color:#FF510C; }
+				
+/** Summary > items > check in */
+
+	.summary .check-in
+	{ border-top:1px solid #412A0F; }
+		
+/** Summary > items > info */
+		
+	.summary .info
+	{ background:url(images/structure/bg-split-summary.gif) repeat-y 0 0; }
+	
+		.summary .full .info
+		{ background:none; }
+		
+		.summary .info address
+		{ color:#DFF0B0; }
+		
+		.summary .info strong
+		{ color:#FFBC1F;}
+		
+			.summary .info .claim a:link, .summary .info .claim a:visited, .summary .info .claim a:active
+			{ color:#FF510C; }
+	
+/** Summary > items > deal */
+	
+	.summary .deal h4
+	{ background:#5A3104; }
+	
+		.summary .deal h4 a:link, .summary .deal h4 a:visited, .summary .deal h4 a:active
+		{ color:#FFF; }	
+	
+/** Summary > Summary Deal differences */
+
+.summary-deal
+{ background:none; border:none; border-bottom:1px solid #6B400D; }
+	
+/** Summary Backlink */
+
+	.summary-backlink
+	{ background-color:#271704; border-color:#3E5F29; }
+	
+		.summary-backlink .share
+		{ background-color:#3E5F29; border-bottom-color:#23430F; border-top:3px solid #D47103; }
+		
+			.summary-backlink .share a:link, .summary-backlink .share a:visited, .summary-backlink .share a:active
+			{ color:#FFF; }
+
+/** Sidebar > google map definitions */
+
+.sidebar .map
+{ border:1px solid #CCC; }
+
+	.sidebar .map a, .sidebar .map a:visited
+	{ color:#2A1B08; }
+	

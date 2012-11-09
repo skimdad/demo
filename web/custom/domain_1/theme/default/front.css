@@ -1,0 +1,124 @@
+/**
+* eDirectory - Home Page ( Modules )
+*
+* @package			layout
+* @filesource		front.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+/** Front Misc > Structure */
+
+.content
+{ padding-top:0; }
+
+.content-top .featured
+{ padding:0; }
+
+/** Featured Items Front */
+
+/** Featured > General Featured style */
+
+.featured .featured-item
+{ border-bottom:1px solid #EEE; clear:right; float:right; height:auto; overflow:hidden; padding:5px 0; width:348px; }
+	
+.featured .featured-item-special
+{ border:none; float:left; padding:0 15px 15px 0; width:158px; }
+
+.featured .left
+{ width:346px; }
+
+/** Featured > featured article */
+
+.featured-article .featured-item
+{  width:254px; }
+
+.featured-article .left
+{ width:426px; }
+	
+.featured-article .featured-item-special
+{ border:none; clear:left; float:left; padding:0 0 15px 0; width:416px; }
+
+	.featured-article .featured-item-special .image
+	{ float:left; }
+	
+	.featured-article .featured-item-special p,
+	.featured-article .featured-item-special h3
+	{ padding:0 0 2px 173px; }
+		
+/** Featured > featured reviews */
+
+.featured-review .featured-item
+{ border-bottom:none; float:left; padding:0 30px 15px 0; width:200px; }
+		
+	.featured-review .last
+	{ border:none; padding-right:0; }
+	
+/** Featured > featured deals */
+	
+	.featured-deal .featured-item
+	{ padding:10px 0 !important; width:412px; }
+		
+	.featured-deal .featured-item-special
+	{ clear:both; width:240px; }
+	
+		.featured-deal .featured-item-special h3, 
+		.featured-deal .featured-item-special p
+		{ padding-left:0; }
+		
+		.featured-deal .left
+		{ width:240px !important; }
+	
+		.featured-deal .featured-item .left
+		{ width:80px !important; }			
+				
+/** Special Deal */
+			
+.special-deal
+{ border:1px solid #DFDFDF; clear:both; height:204px; overflow:hidden; position:relative; width:708px; }
+
+	.special-deal .right
+	{ background:#E7E7E7; border-left:1px solid #DFDFDF; height:174px; padding:15px; width:315px; }
+
+	.special-deal h2
+	{ font-size:24px; font-weight:normal; height:auto; line-height:28px; margin:0 0 10px 0; text-transform:none; }
+	
+		.special-deal h2 a:link,
+		.special-deal h2 a:visited,
+		.special-deal h2 a:active
+		{ color:#000; }
+	
+	.special-deal p
+	{ clear:both; }
+	
+	.special-deal .info
+	{ background:#DEDEDE; float:left; margin:0 0 10px 0; padding:5px; }
+	
+		.special-deal a img
+		{ border:none; }
+		
+	.special-deal .left
+	{ height:204px; position:relative; width:362px; }
+		
+		.special-deal .left .deal-tag
+		{ background:url(images/iconography/icon-tag-special-deal.png) no-repeat 0 0; height:65px; position:absolute; right:0; top:15px; width:113px; }
+		
+			.special-deal .left .deal-tag .cents
+			{ font-size:16px; }
+		
+			.special-deal .left span
+			{ display:block; text-align:center; }
+			
+			.special-deal .left .price
+			{ font-size:26px; height:45px; line-height:45px; }
+			
+			.special-deal .left .discount
+			{ color:#081C2A; display:block; font-size:11px; font-weight:bold; height:20px; line-height:20px; padding:0 0 0 41px; }			
+			
+/** Special deal > no image difference */
+
+.special-deal .no-image
+{ height:198px; width:356px; }

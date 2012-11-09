@@ -1,0 +1,20 @@
+
+RewriteEngine On
+RewriteBase /deal
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^(.*/share|share)/(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)?(/reviews|reviews)/share|share)/(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ ./facebook_share.php?from=$1&friendly_url=$4 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ [NC]
+
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/search|search)/(.*)?$ ./results.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/guide|guide)/(.*)?$ ./results.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/location|location)/(.*)?$ ./results.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ ./detail.php?friendly_url=$1 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/reviews|reviews)/(.*)?$ ./comments.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]

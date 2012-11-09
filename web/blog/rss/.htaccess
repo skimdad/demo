@@ -1,0 +1,6 @@
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^(.*/blog|blog)(_)?([a-zA-Z0-9_-]+)?\.(xml)$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/blog|blog)(_)?([a-zA-Z0-9_-]+)?\.(xml)$ ./index.php?qs=$4 [E=edir_language:%{ENV:REDIRECT_edir_language},L]

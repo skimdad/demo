@@ -1,0 +1,390 @@
+/**
+* eDirectory - Order Section
+*
+* @package			layout
+* @filesource		order.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+.content-main
+{ padding-bottom:30px;}
+
+.standardSubTitle, .orderTopdetail .standardSubTitle
+{ background:url(images/structure/bg-detail-desc.png) repeat-x 0 33px; color:#636363 !important; font-family:"Futura", Arial, Helvetica; font-size:21px; font-weight:normal; height:1%; line-height:21px; margin:0 0 15px 0; overflow:hidden; padding:15px 0 10px 0; text-align:left; text-transform:uppercase; }
+
+	.standardSubTitle span
+	{ color:#666; display:block; float:none; font-size:11px; font-style:italic; line-height:14px; text-transform:none; }
+
+.nomargin
+{ margin: 0 !important; }
+
+.alignLeft
+{ text-align:left !important; }
+
+/** Order structure */
+
+.standardForm
+{ margin: 0; padding: 0; }
+
+.orderTable
+{ margin-bottom:10px; width: 100%; }
+
+	.orderTable td, 
+	.orderTable th,
+	.orderTable tr
+	{ color:#666; }
+
+	.orderTable td
+	{ vertical-align: top; }
+
+	.orderTitle
+	{ background: #069; color: #FFF; padding: 10px; width: 600px; }
+	
+	orderTable .paddingUserTable
+	{ padding: 10px 5px 15px 5px; }
+	
+	.orderUserTable
+	{ background: #F7F7F7; padding: 0 0 10px 0; vertical-align: top; width: 400px; }
+	
+	.orderUserTable table
+	{ text-align: left; margin: 8px auto 0 auto; background: #FFF; border: 2px solid #EFEFEF; width: 95%; }
+	
+	.orderUserTable table td,
+	.orderUserTable table th
+	{ border: 0; padding: 5px; text-align: left; }
+	
+	.orderUserTable table td.warning
+	{ width: 300px; }
+	
+	.orderTable .orderUserTable .formFieldsLogin
+	{ font-size: 11px; float: left; margin: 0; padding: 10px; width: 300px; overflow: hidden; }
+	
+	.orderTable .orderUserTable .formFieldsLogin label
+	{ display: block; float:left; font-weight:bold; padding-right:10px; width: 120px; text-align: right; }
+
+	.orderTable .orderUserTable .formFieldsLogin input
+	{ border: 1px solid #E1E1E1; border-bottom: 1px solid #EEE; float: left; font-size: 10px; margin-bottom:7px; padding: 2px; width: 110px; }
+	
+	.orderTable .orderUserTable .formFieldsLogin .standardButton
+	{ padding:0 0 0 78px; }
+	
+	#formFacebookUser
+	{ padding:0 0 10px 0; }
+	
+		#formFacebookUser .button-facebook, #formGoogleUser .button-google
+		{ padding:0; }
+	
+/** Order signuptable */
+	
+.standardSIGNUPTable
+{ width: 100%; margin: 0px auto 20px auto; font-size: 11px; line-height: 15px; color: #222; border-collapse: collapse; text-align:left; }
+
+	.standardSIGNUPTable a
+	{ color:#0072BC; }
+
+.standardSIGNUPTable td, 
+.standardSIGNUPTable th,
+.standardSIGNUPTable tr
+{ color:#636363; font-weight:normal; }
+
+.standardSIGNUPTable .errorTable
+{ margin-top:15px; }
+
+.standardSIGNUPTable table
+{ width: auto; }
+
+.standardSIGNUPTable td,
+.standardSIGNUPTable th
+{ padding: 5px 2px 5px 2px; vertical-align: top; }
+
+.standardSIGNUPTable th
+{ text-align:right; width:150px; }
+
+.standardSIGNUPTable td
+{ width: 810px; text-align: left; }
+
+.tableOrderEvent_date td
+{ margin: 0; padding: 0 5px 0 0; }
+
+.standardSIGNUPTable td.eventDate,
+.standardSIGNUPTable td.eventDate input
+{ width: 90px; }
+
+.standardSIGNUPTable td.errorMessage
+{ padding: 10px 10px 10px 45px; }
+
+.standardSIGNUPTable .alignTop
+{ vertical-align:top; }
+
+.standardSIGNUPTable .textTop 
+{ vertical-align:text-top; }
+
+.standardSIGNUPTable td span
+{ font-size: 11px; font-style:italic; color: #999; display: block; }
+
+#checkUsername .UsernameRegistered
+{ color: #FF0000; }
+
+#checkUsername .UsernameNotRegistered
+{ color: #008000; }
+
+.standardSIGNUPTable .SIGNUPTable-title
+{ width: auto; text-align: left; padding-top: 10px; }
+
+	.standardSIGNUPTable .SIGNUPTable-title h2
+	{ background:url(images/structure/bg-detail-desc.png) repeat-x 0 33px; color:#636363 !important; font-size:21px; line-height:21px; padding-left:0; padding-top:15px; }
+	
+		.standardSIGNUPTable .SIGNUPTable-title h2 span
+		{ font-family:Arial, Helvetica, sans-serif; padding-top:15px; }
+
+.standardSIGNUPTable .valignTop 
+{ vertical-align:top; }
+
+.standardSIGNUPTable .errorTitle
+{ color:#6B2E37; padding:10px 0 5px 10px; }
+
+.standardSIGNUPTable input,
+.standardSIGNUPTable button,
+.standardSIGNUPTable select
+{ border: 1px solid #CCC; font-size: 11px; padding: 2px; width: 80%; }
+
+.standardSIGNUPTable select 
+{ width: 45%; }
+
+.standardSIGNUPTable input.inputRadio
+{ border: none; width: auto; padding: 0;}
+
+.standardSIGNUPTable input.password 
+{ width: 400px; }
+
+.standard-tableTOPBLUE th
+{ background:url(images/structure/bg-detail-desc.png) repeat-x 0 bottom; color:#636363 !important; font-family:"Futura", Arial, Helvetica; font-size:21px; font-weight:normal; height:1%; padding-left:0; padding-top:0; line-height:16px; margin:0 0 15px 0; overflow:hidden; padding:20px 0 7px 0; text-align:left; text-transform:uppercase; }
+
+.standard-tableTOPBLUE td
+{ padding: 0 10px 10px 0; white-space: nowrap; }
+
+.standard-tableTOPBLUE td input
+{ height: 15px; width: 15px; }
+
+.orderTotalAmount
+{ background: #F7F7F7; border: 1px solid #CCC; margin: 15px auto 10px auto; font: normal 14px/24px Arial, Helvetica, sans-serif; padding: 10px 0 10px 0; text-align:left; color:#09C; width: auto; }
+
+	.orderTotalAmount strong
+	{ color:#001428; padding:0 10px 0 45px; }
+	
+.orderPayment, .orderPayment th
+{ width:1000px; }
+
+.orderPayment td
+{ background:none !important; color:#636363; }
+
+	.loadingOrderCalculate
+	{ color: #037; font: bold 11px/32px Verdana, Arial, Helvetica, sans-serif; margin:5px auto 0 auto; padding-left:35px; text-align:left; width:110px; }
+	
+.standardButton
+{ clear:both; margin: 0 auto 0 auto; text-align:center; }
+
+.standardButton	button
+{ background:url(images/structure/bg-search-button.gif) repeat-x 0 0; cursor:pointer; color:#555; font-size:11px; font-style:italic; height:33px; letter-spacing:-0.5px; line-height:33px; padding:0 10px; text-shadow:1px 1px 1px #FFF; text-transform:uppercase; width:120px; }
+		
+	.standardButton	button
+	{ -moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; -moz-box-shadow:1px 1px 0 #FFF; -webkit-box-shadow:1px 1px 0 #FFF; box-shadow:1px 1px 0 #FFF; }
+	
+	.standardButton	button:focus,
+	.standardButton	button:hover
+	{ color:#111; }
+	
+	.standardButton	button:active
+	{ color:#111; }
+	
+/** Claim Order */
+
+.orderTable .claimUserTable
+{ width: 100%; }
+
+.orderTable .claimUserTable table
+{ width: 95%; }
+
+.orderTable .claimUserTable .formFieldsLogin input
+{ width: 100px; }
+
+	.orderTable .orderUserTable table .radioChooseLevel
+	{ padding: 0 0 0 5px; text-align: center; width: 20px; vertical-align: middle; }
+	
+	.radioChooseLevel input
+	{ border: none; }
+
+	.standardChooseLevel
+	{ margin: 0; text-align: left; width: 95%; }
+	
+	.standardChooseLevel th,
+	.standardChooseLevel td
+	{ border-bottom: 1px solid #EEE; color: #666; font-size: 11px; padding: 5px; text-align: right; vertical-align: middle; white-space: nowrap; }
+	
+	.standardChooseLevel th
+	{ color: #666; padding: 0 10px 0 45px;}
+		
+	.standardChooseLevel td
+	{ white-space: nowrap; width: 100%; }
+	
+	.standardChooseLevel td select
+	{ border:1px solid #D4D4D4; border-right: 1px solid #EEE; border-bottom: 1px solid #EEE; font-size: 11px; padding:2px; width:220px; }
+
+	.standardChooseLevel th.radioChooseLevel
+	{ text-align: center; padding: 0 5px 0 5px; border-right: 0; }
+	
+	.standardChooseLevel th.chooseLevel
+	{ width: 80%; }
+	
+.claimButton, .claimButton a, .claimButton a:hover
+{ width: 200px; }
+
+	.claimButton button
+	{ width: 200px; } 
+
+/** Tree View Order */
+
+.standardSIGNUPTable .treeView
+{ padding: 0 0 0 20px; width: 100%; }
+
+	.treeView li
+	{ clear: both; font-size: 11px; font-weight: normal; height: 100%; overflow: hidden; padding-top: 2px; padding-bottom: 1px; }
+	
+	.treeView li .categoryTitle, .treeView li .categoryTitle:visited
+	{ color: #636363; float: left; font-weight: normal; padding: 0 0 0 4px; width: 90%; }
+	
+	.treeView .informationMessage
+	{ padding: 15px 15px 15px 45px; }
+	
+	.treeView li.loading
+	{ clear: both; float: none; padding: 10px 10px 10px 60px; width: auto; }
+	
+	.treeView li.loading
+	{ background:url(images/iconography/icon-loading-content.gif) no-repeat 20px 5px; clear: both; float: none; padding: 10px 10px 10px 60px; width: auto; }
+
+	.categoryBullet
+	{ background: url(../../images/design/bullet_sub_menu.gif) no-repeat 4px 8px; font-size: 11px; padding: 2px 0 2px 20px; }	
+	
+	.categoryTreeview
+	{ padding: 2px; }
+
+	.categoryTreeview input
+	{ margin-left:20px }
+
+	.treeView li ul li
+	{ margin: 0 0 0 19px; padding-top: 2px; padding-right: 2px; }
+	
+	.treeView li ul input
+	{ margin-left:38px }
+	
+	.treeView .categoryAdd, .treeView .categoryAdd:visited
+	{ background: #F7F7F7; /* Background is needed for jQuery effects. Do not remove it. */ color: #0072BC; }
+
+	.treeView span,
+	.treeView .treeviewMainMenu_divNodes2 span
+	{ color: #351; display: inline; text-decoration: underline; } 
+	
+	.treeView .treeviewLoadingMessage,
+	.treeView .treeviewMainMenu
+	{ background: #FFF; border: 1px solid #BCE; clear: both; display: block; padding: 0 0 0 50px; }
+	
+	.treeView .tableCategoriesADDED
+	{ clear: both; width: 100%; }
+	
+	.treeView .tableCategoriesADDED .alignLeft
+	{ text-align:left; }
+	
+	.treeView .tableCategoriesADDED .tableCategoriesCONTENT
+	{ width: auto; text-align: center; border: 0; }
+	
+	.treeView .tableCategoriesADDED .tableCategoriesCONTENT textarea
+	{ width: 100%; }
+	
+	.treeView .tableCategoriesBUTTONS
+	{ text-align: center; }
+	
+	.treeView .tableCategoriesBUTTONS input,
+	.treeView .tableCategoriesBUTTONS button
+	{ background:url(images/structure/bg-button.gif) repeat-x 0 0; border-color:#D0D7E1 #D0D7E1 #B4BCC9; border-style:solid; border-width:1px; color:#818DA1; cursor:pointer; font-size:11px; height:32px; line-height:32px; padding: 0 15px; width:217px; }
+	
+	.treeView .tableCategoriesBUTTONS input,
+	.treeView .tableCategoriesBUTTONS button
+	{ -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+
+	.treeView textarea
+	{ border: 1px solid red; width: 100%; }
+
+.categoryTreeview .categorySuccessMessage,
+.categoryTreeview .categoryErrorMessage
+{ background: #FFF; /* Background is needed for jQuery effects. Do not remove it. */ color: #692; display: inline-block; font-size: 11px; font-weight: bold; margin-left: 2px; text-decoration: none; }
+
+.categoryTreeview .categoryErrorMessage
+{ color: #C10924; }
+
+/** Order message */
+
+.standardMessage
+{ margin: 0 auto 0 auto; }
+	
+	.errorTitle
+	{ color: #C00; font-size: 11px; padding: 5px 5px 5px 5px; text-align: left; }
+	
+/** Misc */
+
+.extendedContent .summary
+{ float:none; margin: 0 auto 20px auto; width: auto; }
+
+	.extendedContent .summary .left
+	{ float:none; margin:0 auto; }
+
+/** Order Page > One Column **/
+
+.standardChooseLevel
+{ float: left; width: 65%; }
+
+.orderUserTable
+{ background: none; }
+
+	.orderUserTable table
+	{ background: none; border: none; margin-right: 0; margin-left: 0; }
+
+.standardSIGNUPTable input, .standardSIGNUPTable button, .standardSIGNUPTable select
+{ width: 46%; }
+
+.standardSIGNUPTable select
+{ width: 23%; }
+
+.standardSIGNUPTable .httpSelect
+{ width:60px; }
+
+.standardSIGNUPTable .httpInput
+{ width:302px !important; }
+
+.orderUserTable table td, .orderUserTable table th
+{ white-space: nowrap; }
+
+.tableCategoriesCONTENT select
+{ width: 45%; }
+
+.treeView .tableCategoriesADDED .tableCategoriesCONTENT,
+.treeView .tableCategoriesBUTTONS
+{ text-align: left; }
+
+.treeView .tableCategoriesADDED .tableCategoriesTITLE
+{ padding-top: 20px; }
+
+.standardSIGNUPTable .treeView
+{ padding-top: 10px; }
+
+.standardSIGNUPTable .warningBOXtext
+{ line-height: 20px; }
+
+.paymentMethods
+{ margin-top:15px; padding:30px 0 0 0; }
+
+	.paymentMethods b
+	{ font-weight:normal; }

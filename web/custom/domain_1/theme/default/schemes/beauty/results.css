@@ -1,0 +1,110 @@
+/**
+* eDirectory - Result Pages ( Modules )
+*
+* @package			layout
+* @filesource		results.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			September, 29, 2011
+*			
+*/
+
+/** Browse by Category */
+
+.browse-category
+{ background:#F5F5F5; border-top:1px solid #B6BEC5; }
+	
+	.browse-category li span
+	{ color:#62707B; }
+		
+		.browse-category li ul li a:link, .browse-category li ul li a:visited, .browse-category li ul li a:active
+		{ color:#447DAA; }
+		
+			.browse-category li ul li span
+			{ color:#536979; }
+				
+/** Results Info */	
+
+.search-info
+{ border-bottom:none; }
+
+	.search-info strong
+	{ color:#777; }
+	
+/** Summary */	
+
+.summary
+{ background:#FBFBFB; border:1px solid #DDD; }
+
+/** Summary > share */
+
+	.summary .share
+	{ background:#FAF6ED; border-bottom:1px solid #F891A0; }
+		
+		.summary .share ul li, .summary .share-social li
+		{ color:#999; }
+	
+/** Summary > items > title */
+			
+	.summary .title h3 a.map-link:link, .summary .title h3 a.map-link:visited, .summary .title h3 a.map-link:active
+	{ color:#D15465; }
+	
+		.summary .title h3 a.map-link:hover
+		{ color:#FF510C; }
+		
+/** Summary > items > rate */
+
+	.summary .rate p a
+	{ color:#7993A5; }
+				
+/** Summary > items > check in */
+
+	.summary .check-in
+	{ border-top:1px solid #C4C9CC; }
+		
+/** Summary > items > info */
+		
+	.summary .info
+	{ background:url(images/structure/bg-split-summary.gif) repeat-y 0 0; }
+	
+		.summary .info address
+		{ color:#444; }
+		
+		.summary .info strong
+		{ color:#666;}
+		
+			.summary .info .claim a:link, .summary .info .claim a:visited, .summary .info .claim a:active
+			{ color:#FF510C; }
+
+/** Summary > items > deal */
+	
+	.summary .deal h4
+	{ background:#EEE; }
+	
+		.summary .deal h4 a:link, .summary .deal h4 a:visited, .summary .deal h4 a:active
+		{ color:#061826; }
+	
+/** Summary > Summary Deal differences */
+
+.summary-deal
+{ background:none; border:none; border-bottom:1px solid #CDD4D9; }
+
+	.summary-deal:last-child
+	{ border-bottom:none; }
+	
+/** Summary Backlink */
+
+	.summary-backlink
+	{ background-color:#FAF6ED; border-color:#F891A0; }
+	
+		.summary-backlink .share
+		{ background-color:#FAF6ED; border-bottom-color:#F891A0; border-top:3px solid #F891A0; }
+		
+			.summary-backlink .share a:link, .summary-backlink .share a:visited, .summary-backlink .share a:active
+			{ color:#D15465; }
+
+/** Sidebar > google map definitions */
+
+.sidebar .map
+{ border:1px solid #CCC; }

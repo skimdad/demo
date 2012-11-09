@@ -1,0 +1,493 @@
+/**
+* Global Definitions
+*
+* @section	global reset
+*/
+
+/*
+a, a:visited 
+{ color:#006699; font-weight:bold; text-decoration:none; }
+*/
+
+ /* FIX FOR IE6 AND IE7 - BACKGROUND IMAGE FOR TITLE ON FOOTER */
+#footer h3 
+{ background-position: left 36px; height: 39px; line-height: 30px; }
+
+input, select, textarea,
+table.standard-table th input, table.standard-table td input, table.standard-table select, table.standard-table textarea
+{ background: #fff; border: 1px solid #CCC; border-bottom: 1px solid #EEE; border-right: 1px solid #EEE; color: #666; padding: 2px; }
+
+.wrapper
+{ margin: 0 auto; position: relative; }
+
+.modal-wrapper
+{ height:auto; padding:20px 0; text-align:center; }
+
+#navbar
+{ background-position: 0 0; background-repeat: repeat; z-index: 10; margin:0 !important; }
+
+	#navbar li
+	{ height:auto; position: relative; width: auto; margin: 0 !important; }
+
+	#navbar li a, #navbar li a:visited
+	{ float: none; }
+	
+#footer
+{ padding:0 !important; width:940px; }
+
+#footer-wrapper
+{ padding:0 20px 30px 20px; }
+		
+.holderFixes .navBarEditArea .broken
+{ border: 3px solid #c00; height:auto!important; overflow:hidden; width:974px !important; }
+
+.holderFixes #navbar-wrapper
+{ background:none !important; }
+
+.languageFlags .flagActive 
+{ border:none; }
+
+.languageFlags img
+{ margin: 0 1px; padding: 0;}
+
+
+/** MENU CONFIGURATION - MODULES OPTIONS **/
+
+.graphicModules
+{ background: #f5f5f5; border: 2px solid #d9d9d9; font-family: Arial,Helvetica,sans-serif; font-size: 14px; padding: 10px; text-align: left;  }
+
+	.graphicModules .logoHeader
+	{ background: #bcbcbc; height: 60px; margin: 0 0 10px 0; width: 200px; }
+	
+	.graphicModules .includeHeader, .graphicModules .includeFooter
+	{ background: #bcbcbc; border: 1px solid #bcbcbc; color: #747474; height:60px; line-height:60px;}
+	
+		.graphicModules .includeHeader a, .graphicModules .includeFooter a,
+		.graphicModules .includeHeader a:visited, .graphicModules .includeFooter a:visited		
+		{ color: #747474; display:block; height:40px; line-height:40px; padding:10px; width:755px; }
+		
+		.graphicModules .includeHeader a:hover, .graphicModules .includeFooter a:hover
+		{ background: #747474; color: #fff;}
+	
+	.graphicModules .includeFooter
+	{ margin: 150px 0 0 0; }
+	
+
+/** MENU CONFIGURATION - MODULES OPTIONS POPUP **/
+
+.wrapperModules
+{ background: none; border: none; padding:0; width: 980px; }
+
+.wrapperModulesBig
+{ width: 1035px !important; }
+
+	.wrapperModules .header-form
+	{ margin:0 0px 15px 0; }
+	
+	.wrapperModules	.holder
+	{ background:#FFF; border:1px solid #DDDDDD; clear: both; height:305px; margin:10px 0; overflow: hidden; padding:0; position: relative; width:980px; }
+    
+    .modal-wrapper .wrapperModulesBig .holderBig, .wrapperModules .holder
+	{ width:1035px !important; }
+	
+	.modal-wrapper-footer .wrapperModules .holder
+	{ height:auto; }
+		
+	.wrapperModules	.holder .alert
+	{ background: url(../images/design/bg_navbarEditAreaBroken.gif) no-repeat 0 0; color: #fff; font-size:16px; font-weight:bold; height: 34px; position: absolute; right: 10px; top: 120px; width: 186px; z-index:0; }
+	
+	
+	
+/**  MENU CONFIGURATION - MODULES OPTIONS SECOND POPUP **/
+		
+#module_options, #custom_options
+{ background: #fff;  border:3px solid #525252; padding: 5px; }
+	
+	#module_options h5, #custom_options h5
+	{ border-bottom:1px dashed #EEEEEE; border-top:1px dashed #EEEEEE; color:#999999; font: 12px/16px Arial,Helvetica,sans-serif; font-size:18px; font-weight:normal; margin:10px; padding:10px 0; text-align:left; }
+	
+	#module_options table.standard-table, #custom_options table.standard-table
+	{ margin: 0; }
+	
+		#module_options table.standard-table td, #module_options table.standard-table th,
+		#custom_options table.standard-table td, #custom_options table.standard-table th
+		{ background:none; height: 20px; line-height: 20px; padding: 5px; width: auto;}
+	
+	#module_options .url, #custom_options .url
+	{ color: #999999; display: inline-block; font-size: 11px; padding: 0; }
+	
+	#custom_options .note
+	{ background: #F6F6F6; font: 12px/16px Arial,Helvetica,sans-serif; margin: 15px 0 3px; padding: 5px; text-align: left; }	
+	
+	
+
+/** MENU CONFIGURATION - HEADER / FOOTER **/
+
+.aditionalItemOptions
+{ padding-top:5px !important; }
+
+.aditionalItemOptions li
+{ width:22px; }
+
+	.aditionalItemOptions li a, .aditionalItemOptions li a:visited
+	{ padding-left:3px !important; }
+	
+.navBarEditArea
+{ margin:0 auto; }
+
+	.navBarEditArea .navFooter, 
+	.navBarEditArea .secondaryNavFooter
+	{ height:auto; position: relative; z-index:1; }
+	
+	.navBarEditArea .secondaryNavFooter
+	{ min-height:40px; }
+
+	.navBarEditArea #navbar .activeEdit		
+	{ border:1px dashed #FFF !important; cursor:move; /*line-height:39px; height:40px;*/ }
+	
+	.navBarEditArea .navFooter .activeEdit, 
+	.navBarEditArea .secondaryNavFooter .activeEdit	
+	{ clear:both; margin-bottom:20px;}
+		
+	.navBarEditArea #navbar .activeMove, 
+	.navBarEditArea .navFooter .activeMove, 
+	.navBarEditArea .secondaryNavFooter .activeMove
+	{ cursor:move; text-decoration:none; }
+	
+	.navBarEditArea #navbar .activeBlank, 
+	.navBarEditArea .navFooter .activeBlank, 
+	.navBarEditArea .secondaryNavFooter .activeBlank
+	{ border:1px dotted #069 !important; }
+	
+	.navBarEditArea #navbar ul *, 
+	.navBarEditArea .navFooter ul *, 
+	.navBarEditArea .secondaryNavFooter ul *
+	{ border:none; margin:0; padding:0; font-size:11px; line-height:11px; }
+
+	.navBarEditArea #navbar ul, 
+	.navBarEditArea .navFooter ul, 
+	.navBarEditArea .secondaryNavFooter ul
+	{ background:#061826; font:normal 12px/20px Arial,Helvetica,sans-serif; clear:both; font-weight: normal; float:left; height:20px; overflow:hidden; padding:0 !important; text-transform: capitalize; width: auto; z-index: 9999;  }
+		
+		.navBarEditArea .navFooter ul, 
+		.navBarEditArea .secondaryNavFooter ul
+		{ background:#092237; }
+			
+		.navBarEditArea .navFooter .activeEdit a,
+		.navBarEditArea .secondaryNavFooter .activeEdit a
+		{ border:1px dashed #FFF; clear:both; cursor:move; height:10px; position: relative; }
+		
+		.navBarEditArea .navFooter .activeEdit ul li a, .navBarEditArea .navFooter .activeEdit ul li a:visited,
+		.navBarEditArea .secondaryNavFooter ul li a, .navBarEditArea .secondaryNavFooter .activeEdit ul li a:visited
+		{ border:none; cursor:pointer !important; }
+		
+			.navBarEditArea .navFooter .activeEdit ul li a:hover,
+			.navBarEditArea .secondaryNavFooter .activeEdit ul li a:hover
+			{ text-decoration:none; }
+	
+			.navBarEditArea #navbar ul li, 
+			.navBarEditArea .navFooter ul li,
+			.navBarEditArea .secondaryNavFooter ul li
+			{ background:none; display:block; float:left; padding:0 !important; _padding-top:5px; }
+			
+			.holderBig .navBarEditArea #navbar ul li, 
+			.holderBig .navBarEditArea .navFooter ul li,
+			.holderBig .navBarEditArea .secondaryNavFooter ul li
+			{ padding:0 !important; }
+			
+				.navBarEditArea #navbar ul li a:link, 
+				.navBarEditArea .navFooter ul li a:link, 
+				.navBarEditArea .secondaryNavFooter ul li a:link
+				{ background:none; border:none; color:#FFF; display:block; font-size:10px; float:left; height:20px; line-height:20px; padding:0; text-decoration:none; text-transform:capitalize; width:20px; }			
+				
+				.navBarEditArea #navbar ul li.editItem a,
+				.navBarEditArea .navFooter ul li.editItem a,
+				.navBarEditArea .secondaryNavFooter ul li.editItem a
+				{ background: url(../../images/bt_edit.gif) no-repeat center; }
+				
+				.navBarEditArea #navbar ul li.delItem a,
+				.navBarEditArea .navFooter ul li.delItem a,
+				.navBarEditArea .secondaryNavFooter ul li.delItem a
+				{ background: url(../../images/bt_delete.gif) no-repeat center; }
+
+/** MENU CONFIGURATION - FOOTER **/
+
+.footerEditArea .navBarEditArea
+{ border: none; padding: 0; }
+
+#footer .navBarEditArea .navFooter li a:link, #footer .navBarEditArea .navFooter li a:visited, #footer .navBarEditArea .navFooter li a:active,
+#footer .navBarEditArea .secondaryNavFooter li a:link, #footer .navBarEditArea .secondaryNavFooter li a:visited, #footer .navBarEditArea .secondaryNavFooter li a:active
+{ line-height: 12px; padding-bottom: 2px; }
+
+/**  MENU CONFIGURATION - BUTTONS **/
+			
+#tools
+{ position:relative; padding:20px 0 0 0; z-index:2; }
+
+	#tools table.standard-table th
+	{ height:30px; line-height:30px; padding:0 10px 0 0; }
+	
+	#tools table.standard-table input
+	{ margin:10px 7px; height: 25px; line-height: 25px; padding:0 5px; width:95%; }
+	
+	#tools table.standard-table td			
+	{ height:30px; line-height:30px; padding: 0; width: 470px; }
+	
+	#tools table.standard-table tr#warningMsg td			
+	{ height: auto; }
+	
+	#tools .tabsLang ul
+	{ margin:0; overflow: visible; float: left; }
+	
+		#tools .tabsLang li
+		{ background: #CFCFCF; border-right: 1px solid #eee; height: 30px; line-height:30px; float: left; padding: 0 10px; }
+		
+			#tools .tabsLang li a, #tools .tabsLang li a:visited
+			{ font-family: Arial,Helvetica,sans-serif; font-size: 11px; display: inline-block; }
+		
+		#tools .tabsLang li.tabActived
+		{ background:none repeat scroll 0 0 #EBEBEB; height: 30px; line-height:30px; margin: 0; }
+		
+		#tools .tabsLang li.tabActived a, #tools .tabsLang li.tabActived a:visited
+		{ background:none repeat scroll 0 0 #EBEBEB; color:#000000; font-family: Arial,Helvetica,sans-serif; font-size: 11px; }
+	
+	#tools_saveadd
+	{ height:auto; overflow:hidden;}
+
+.right-holder
+{ float:right; height:40px; overflow:hidden; width:386px; }
+
+#addarea, #cancelarea, #savearea, #restorearea, #closebuttonarea
+{ float:right; padding:0 0 0 6px; }
+		
+.link-action
+{ background:url(../images/design/bg_standardButton.gif) repeat-x scroll 0 0 transparent; color:#FFF !important; display:inline-block; font-size:12px; height:29px; line-height:29px; padding:0 20px; } 
+
+.saveareaOff
+{ background:url(../images/design/bg_standardButton_off.gif) repeat-x scroll 0 0 transparent !important; }
+
+/** SITEMGR STRUCTURE > STANDARD TABLE - OLD CODE **/
+
+table.standard-table,
+table.addBannerTable
+{width: 100%; font: normal 11px/15pt Arial, Helvetica, sans-serif; color: #222; margin: 0 auto 10px auto; border-collapse: collapse;}
+
+table.standard-table
+{ clear: both; }
+
+	table.standard-table a, table.standard-table a:visited
+	{ font-family: Arial,Helvetica,sans-serif; font-size: 11px; line-height: 30px; display: inline-block; }
+	
+	#tools #navBarItemForm table.standard-table td
+	{ width: auto; }
+	
+	#navBarItemForm table.standard-table th
+	{ width: 150px; }
+	
+	#navBarItemForm table.standard-table th.links
+	{ text-align: right; width: auto; }
+	
+	#navBarItemForm table.standard-table a, #navBarItemForm table.standard-table a:visited
+	{ width: auto; }
+
+.standardForm th.wrap { width:120px }
+.standardForm td.wrap { text-align:left }
+
+	table.nomargin
+	{ margin-bottom: 0; }
+
+	table.standard-table td,
+	table.standard-table th
+	{vertical-align: middle; padding: 10px; background: #FBFBFB; border: 0; line-height:30px; height:40px }
+
+		table.standard-table th {font-weight: normal; text-align: right; white-space: nowrap; /*vertical-align: top;*/ color: #333; width:120px;}
+
+		table.standard-table th.Full { width:740px; height:100%; float:left }
+
+		table.Minit th { width:60px; text-align:left }		
+
+		table.standard-table th.Minih { width:50px }
+
+			.hideForm table.standard-table th.title {width:auto;}
+			
+		table.standard-table th.inputAlign { padding-top:20px;}
+		
+		table.standard-table th.imageSpace { width: 760px; display:inline-block; text-align:left }
+		
+		table.standard-table th.imageSpace img { }
+		
+		table.standard-table td {/*width: 510px;*/ text-align: left; background: #F6F6F6; }
+        
+        table.standard-table td span 
+		{ color: #8A8A8A; display: block; font-family: Arial, Verdana, sans-serif; font-size: 9px; font-weight: normal; line-height: 20px; padding: 0 5px;}
+		
+		table.standard-table td.fixedWidth
+		{ width: 510px; }
+		
+			table.standard-table td table { text-align: left; border: none; width: auto; float: left; }
+		
+				table.standard-table td table tr td { text-align: left; border: 0px solid #000; padding: 5px 5px 5px 0; width: 130px; }
+				
+				table.standard-table td table tr td.innerCell { padding: 10px; width: 510px; }
+
+				table.standard-table td table tr td.radio { text-align: left; border: 0px solid #009900; padding: 0 0 0 0; width: 10px; }
+				
+			table.standard-tableTOPBLUE .nowrap,
+			table.standard-table .nowrap
+			{ white-space: nowrap; }
+			
+			table.standard-table .center
+			{ text-align: center; }
+			
+		.header-form {font: bold 14px Arial, Helvetica, sans-serif Arial, Helvetica, sans-serif; text-align: left; color: #666; padding-bottom: 7px; margin: 0 5px 15px 0; border: 0; border-bottom: 1px solid #EEE;}	
+		
+/** SITEMGR STRUCTURE > PAGING **/
+
+table.pagingContent, 
+table.pagingContent table,
+.pagingContentPagination a,
+.pagingContentPagination
+{ clear: both; font: normal 10px Arial, Helvetica, sans-serif; color: #666; margin: 0 auto 0 auto;}
+
+table.pagingContent table tr td a.leftArrow { background:url(../images/bt_leftarrow.gif) 0 0 no-repeat; width:20px; height:17px; display:block; }
+
+table.pagingContent table tr td a.rightArrow { background:url(../images/bt_rightarrow.gif) 0 0 no-repeat; width:20px; height:17px; display:block; }
+
+table.pagingContent table tr td a span { display:none; }
+
+	table.pagingContent td, #custom_options table.standard-table table.pagingContent td
+	{padding: 2px;}
+	
+	table td.paging-letters a:link,
+	table td.paging-letters a:active,
+	table td.paging-letters a:visited,
+	table td.paging-letters a:hover	
+	{color: #666; padding: 0 8px 0 0;}
+
+		table td.paging-letters a:hover
+		{color: #000;}
+
+		table td.paging-letters a.firstLetter:link,
+		table td.paging-letters a.firstLetter:active,
+		table td.paging-letters a.firstLetter:visited,
+		table td.paging-letters a.firstLetter:hover
+		{color:#EF413D;}
+		
+	table.pagingContent select, .pagingContentPagination select
+	{width: 50px; font: normal 10px Arial, Helvetica, sans-serif; color: #666; border: 1px solid #666;}
+	
+	a.standard-link:link,
+	a.standard-link:active,
+	a.standard-link:visited,
+	a.standard-link:hover
+	{font:bold 11px/20px Arial, Helvetica, sans-serif; color:#456C1E;}
+	
+		a.standard-link:hover {text-decoration:underline; color:#000;}
+		
+	.pagingContentPagination
+	{ clear: both; margin: 0 auto; }
+	
+		.pagingContentPagination div span
+		{ float: left; margin-right: 5px; line-height: 18px }
+
+		.pagingContentPagination a
+		{ display: block; clear: none; }
+		
+		.pagingContentPagination a span
+		{ display: none; }
+		
+		.pagingContentPagination form
+		{ display: inline; }
+	
+		.pagingContentPaginationPrev
+		{ background: url("../images/bt_leftarrow.gif") no-repeat top right; height: 18px; width: 20px; }
+		
+		.pagingContentPagination .pagingContentPaginationSeeAll
+		{ border-right: 1px solid silver; display: block; line-height: 18px; padding: 0 6px 0 0; }
+		
+		.pagingContentPaginationNext
+		{ background: url("../images/bt_rightarrow.gif") no-repeat top right; height: 18px; width: 20px; }
+
+table.standard-table input.inputCheck 
+{ background:none !important; height: 13px !important; padding: 0; width: 13px !important; }
+
+	table.standard-table input.inputCheck 
+	{ border: 0; vertical-align: middle; }
+
+/* SITEMGR STRUCTURE > MISC CLASSES > MESSAGES
+/////////////////////////////////////////////////////*/
+
+div.wrapper #main-right .informationMessage, div.wrapper #main-right .errorMessage,
+div.wrapper #main-right .successMessage, .errorMessage, .informationMessage,
+div.wrapper .successMessage, .baseUploadImage .successMessage
+{ border: 1px solid #CCC; font-family: Arial, Verdana, sans-serif; font-size: 11px; font-weight: bold; line-height: 18px; text-align: left; margin: 10px 20px 10px 20px; padding: 15px 15px 15px 45px !important; }
+	
+div.wrapper #main-right span.informationMessage, div.wrapper #main-right span.errorMessage,
+div.wrapper #main-right span.successMessage, span.informationMessage,
+{ display: block; }
+
+/* SITEMGR STRUCTURE > MISC CLASSES > MESSAGES > INFORMATION MESSAGE
+/////////////////////////////////////////////////////*/
+
+div.wrapper #main-right .informationMessage, .informationMessage
+{ background: #F9FDFF url(../images/design/bg_icon_information.gif) no-repeat 10px 10px; clear: both; color: #135DA2; }
+
+	div.wrapper #main-right .informationMessage a:link, div.wrapper #main-right .informationMessage a:active,
+	div.wrapper #main-right .informationMessage a:visited, div.wrapper #main-right .informationMessage a:hover,
+	.informationMessage a:link, .informationMessage a:active,
+	.informationMessage a:visited, .informationMessage a:hover
+	{ color: #2E4E6B; text-decoration: underline; }
+	
+	div.wrapper #main-right .informationMessage a:hover, .informationMessage a:hover
+	{ color: #000; text-decoration: none; }
+	
+	.informationMessageShort td
+	{ width: auto; }
+	
+		.informationMessageShort td div
+		{ float: left; height: 20px; margin: 2px 7px 0 11px; width: 17px; }
+		
+		.informationMessageShort td p
+		{ float: left; width: 550px; }
+
+/* SITEMGR STRUCTURE > MISC CLASSES > MESSAGES > ERROR MESSAGE
+/////////////////////////////////////////////////////*/
+
+div.wrapper #main-right .errorMessage, .errorMessage
+{ background: #FFF9F9 url(../images/design/bg_icon_error.gif) no-repeat 10px 10px; color: #C10924; }
+
+	div.wrapper #main-right .errorMessage a:link, div.wrapper #main-right .errorMessage a:active,
+	div.wrapper #main-right .errorMessage a:visited, div.wrapper #main-right .errorMessage a:hover,
+	.errorMessage a:link, .errorMessage a:active,
+	.errorMessage a:visited, .errorMessage a:hover
+	{ color: #C94601; text-decoration: underline; }
+	
+	div.wrapper #main-right .errorMessage a:hover, .errorMessage a:hover
+	{ color: #000; text-decoration: none; }
+
+/* SITEMGR STRUCTURE > MISC CLASSES > MESSAGES > SUCCESS MESSAGE
+/////////////////////////////////////////////////////*/
+
+div.wrapper #main-right .successMessage, div.wrapper .successMessage, .baseUploadImage .successMessage
+{ background: #F9FCEB url(../images/design/bg_icon_success.gif) no-repeat 10px 10px; color: #609629; }
+
+	div.wrapper #main-right .successMessage a:link, div.wrapper #main-right .successMessage a:active,
+	div.wrapper #main-right .successMessage a:visited, div.wrapper #main-right .successMessage a:hover,
+	div.wrapper .sucessMessage a:link, div.wrapper .sucessMessage a:active,
+	div.wrapper .sucessMessage a:visited, div.wrapper .sucessMessage a:hover,
+	.baseUploadImage .successMessage a:link, .baseUploadImage .successMessage a:active,
+	.baseUploadImage .successMessage a:visited, .baseUploadImage .successMessage a:hover
+	{ color: #4D6B2E; text-decoration: underline; }
+	
+	div.wrapper #main-right .successMessage a:hover, div.wrapper .sucessMessage a:hover,
+	.baseUploadImage .successMessage a:hover
+	{ color: #000; text-decoration: none; }
+
+/* SITEMGR STRUCTURE > MISC CLASSES > MESSAGES > RESET BORDERS
+/////////////////////////////////////////////////////*/
+	
+.informationMessage,
+.errorMessage,
+.successMessage,
+.warningMessage
+{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }

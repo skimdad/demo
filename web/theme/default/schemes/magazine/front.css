@@ -1,0 +1,58 @@
+/**
+* eDirectory - Home Page ( Modules )
+*
+* @package			layout
+* @filesource		front.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 10, 2011
+*			
+*/
+
+/** Featured > General Featured style */
+
+.featured .featured-item
+{ border-bottom:1px solid #E6E9EC; }
+	
+.featured .featured-item-special
+{ border:none; }
+
+/** Featured > featured article */
+
+.featured-article .featured-item-special
+{ border:none; }		
+
+/** Featured > featured reviews */
+
+.featured-review .featured-item
+{ border-bottom:none; }
+		
+	.featured-review .last
+	{ border:none; }
+				
+/** Special Deal */
+			
+.special-deal
+{ border:1px solid #DFDFDF; }
+
+	.special-deal .right
+	{ background:#E7E7E7; border-left:1px solid #E4196A; }
+
+	.special-deal h2
+	{ border-bottom:none; color:#E4196A; }
+	
+		.special-deal h2 a:link, .special-deal h2 a:visited, .special-deal h2 a:active, .special-deal a:link, .special-deal a:visited, .special-deal a:active
+		{ color:#E4196A; }
+	
+	.special-deal p
+	{ color:#666; }
+	
+	.special-deal .info
+	{ background:#F1F1F1; }
+		
+		.special-deal .left .deal-tag
+		{ background:url(images/iconography/icon-tag-special-deal.png) no-repeat 0 0; }
+			
+			.special-deal .left .discount
+			{ color:#FFF; }			

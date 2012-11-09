@@ -1,0 +1,84 @@
+/**
+* eDirectory - FAQ
+*
+* @package			layout
+* @filesource		faq.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+input
+{ font-family:Arial,Helvetica,sans-serif; font-size:12px;}
+
+/** Typograph */
+
+.standardTitle .complementaryInfo
+{ top: 3px; }
+
+p
+{ padding: 5px 0; }
+
+/** Standard Button */
+
+.standardButton
+{ padding: 0; }
+
+/** FAQ */
+
+.wrapper
+{ background: #FFF; border: 1px solid #CCC; margin:10px auto; padding: 0; }
+
+.content
+{ padding: 10px; }
+
+.faqQuestion
+{ padding: 0 0 10px; }
+
+/** FAQ Paging */
+	
+.paging
+{ height: 60px; position: relative; }
+
+	.paging p
+	{ padding: 10px 10px 5px 5px; }
+
+	.paging .pagingDropdown
+	{ font-size: 11px; position: absolute; right: 0; top: 5px; }
+
+	.paging input
+	{ font-size: 11px; height: 12px; margin-right: 3px; width: 25px; }
+
+	.paging	button
+	{ border: 0; color: #FFF; height: 18px; width: 20px; }
+
+.descNavigation
+{ font-size: 14px; }
+
+	.descNavigation strong
+	{ color: #069; }
+
+.letterNavigation
+{ color: #999; font-size: 14px; height: 30px; line-height: 18px; padding: 10px 0 0 0; }
+
+	.letterNavigation a, .letterNavigation a:visited
+	{ color: #999; padding: 0 0 0 17px; }
+	
+/** FAQ Search */
+
+.faqSearch
+{ border-bottom: 5px solid #F7F7F7; bottom: 0; position: absolute; right: 10px; }
+
+.faqSearch form
+{ border: 1px solid #CCC; clear: both; font-size: 11px; height: 30px; overflow: hidden; line-height: 30px; padding: 5px; float: left; }
+
+.faqSearch input
+{ float: left; margin: 5px 10px 0 10px; }
+
+.faqSearch label
+{ display: block; float: left; }
+
+.faqSearch .standardButton
+{ float: left; }

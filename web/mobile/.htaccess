@@ -1,0 +1,14 @@
+ErrorDocument 400 /errorpage.php
+ErrorDocument 401 /errorpage.php
+ErrorDocument 403 /errorpage.php
+ErrorDocument 404 /errorpage.php
+ErrorDocument 500 /errorpage.php
+
+RewriteEngine On
+
+## Listing ########################
+
+RewriteCond %{REQUEST_URI} ^(.*/listing|listing)/?(.*)\.html$ [NC]
+RewriteRule ^(.*(mobile)/listing|listing)/?(.*)\.html$ ./listingdetail.php?id=$3 [L]
+
+###################################

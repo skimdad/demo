@@ -1,0 +1,107 @@
+/**
+* eDirectory - Detail Page ( Modules )
+*
+* @package			layout
+* @filesource		detail.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			September, 30, 2011
+*			
+*/
+
+/** Detail > share bar */
+
+.share
+{ background:#F7F7F7; border-bottom:1px solid #CCC; border-top:1px solid #CCC; }
+	
+	.share ul li
+	{ color:#818D97; }
+	
+/** Detail > items > titles */
+
+.detail h1
+{ color:#061826; }
+
+/** Detail > items > info */
+
+.detail address
+{ color:#62707B; }
+
+.detail strong
+{ color:#061826; }
+
+	.detail .claim a:link, .detail .claim a:visited, .detail .claim a:active
+	{ color:#FF510C; }
+	
+/** Detail > Detail Deal differences > deal tag */
+	
+	.detail .deal .deal-tag
+	{ background:url(images/iconography/icon-tag-detail-deal.png) no-repeat 0 0; }
+		
+		.detail .deal .deal-tag .discount
+		{ color:#081C2A; }
+		
+	.detail .deal .deal-tag-sold-out
+	{ background:url(images/iconography/icon-tag-detail-deal-sold-out.png) no-repeat 0 0; }
+		
+/** Detail > Detail Deal differences > image */
+
+	.detail .deal .image .no-link
+	{ border-color:#D4D4D4 !important; }
+	
+/** Detail > Detail Deal differences > info */
+
+	.detail .deal .info
+	{ background:#E7E8E8; }
+	
+/** Detail > Detail Deal differences > info > counter */
+
+	.detail .deal .counter
+	{ background:#D3D7D9; border-bottom:1px solid #B9BABA; }
+	
+		.detail .deal .counter .countdown_section span
+		{ color:#061826; }
+		
+		.detail .deal .counter .countdown_section strong
+		{ color:#62707B; }
+			
+/** Detail > Detail Deal differences > info > actions */
+
+	.detail .deal .action
+	{ border-top:1px solid #F5F6F6; }
+		
+/* Content misc > Buttons > Button redeem */
+
+	.detail .deal .button-redeem h2
+	{ border:1px solid #273F53 !important; }
+	
+		.detail .deal .button-redeem h2 a:link, .detail .deal .button-redeem h2 a:visited, .detail .deal .button-redeem h2 a:active
+		{ background:url(images/structure/bg-button-action-contact.gif) repeat-x 0 0; border:1px solid #8CA0B2; }
+		
+			.detail .deal .button-redeem h2 a:hover
+			{ border-color:#C6CED4; }
+	
+/** Sidebar > google map definitions */
+
+.sidebar .map
+{ border:1px solid #CCC; }
+
+.sidebar .map-info-view img
+{ border:3px solid #D0D5D8; }
+
+/** Featured > featured listing */
+		
+.sidebar .featured-listing .featured-item address
+{ color:#62707B; }
+
+.sidebar .featured-listing .featured-item strong
+{ color:#061826; }
+
+/** Sidebar > featured reviews */
+
+.sidebar h2 .rate-it
+{ color:#FF510C; }
+
+.sidebar .rate-it-first:link, .sidebar .rate-it-first:visited, .sidebar .rate-it-first:active
+{ background:#F4E4C4; color:#FF510C; }

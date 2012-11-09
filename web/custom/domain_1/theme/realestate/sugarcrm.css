@@ -1,0 +1,88 @@
+/**
+* eDirectory - Sugar CRM
+*
+* @package			layout
+* @filesource		sugarcrm.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+.sugarCRMScreen
+{ background: #ECECEC; font: normal 12px Arial, Helvetica, sans-serif; height: auto; margin: 0; padding: 0; }
+
+	.sugarLogo
+	{ margin: 33px auto 8px; text-align: center; }
+	
+		.sugarLogo img
+		{ margin-bottom: 30px; }
+	
+		.importSugarTitle
+		{ background: #FDFEFE; border: 1px solid #DFDFDF; margin: 0 auto; width: 352px; }
+		
+		.importSugarTitle
+		{ -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+		
+			.sugarLogo p
+			{ line-height: 30px; margin: 5px; width: 342px; }
+			
+				.sugarLogo p span
+				{ padding: 0 5px; }
+
+	.sugarCRMForm
+	{ margin-bottom: 64px; text-align: center; }
+
+	.sugarCRMScreen .sugarCRMTable
+	{ background: #FDFEFE; border: 1px solid #DFDFDF; margin: 0 auto 5px; padding-left: 10px; width: 352px; }
+	
+	.sugarCRMScreen .sugarCRMTable
+	{ -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; }
+	
+		.sugarCRMScreen .sugarCRMTable th
+		{ font: normal 11px Arial, Helvetica, sans-serif; text-align: left; padding: 18px 5px 18px 26px; width: 100px; }
+		
+			.sugarCRMScreen .sugarCRMTable th.sugarCRMTableTop
+			{ padding-top: 32px; }
+			
+			.sugarCRMScreen .sugarCRMTable td.sugarCRMTableTop
+			{ padding-top: 13px; }
+			
+		.sugarCRMScreen .sugarCRMTable td
+		{ padding-right: 35px; }
+		
+			.sugarCRMScreen .sugarCRMTable p.errorMessage
+			{ font: normal 12px Arial, Helvetica, sans-serif; margin-bottom: 0; }
+		
+		.sugarCRMScreen .sugarCRMTable select
+		{ background: url(../../images/design/bg_sugarcrm_select.gif) no-repeat left top; border: none; height: 22px; padding: 2px 3px; width: 170px; }
+		
+		.sugarCRMButton
+		{ padding-bottom: 20px; }
+	
+		.sugarCRMScreen .sugarCRMTable .standardSugarButton
+		{ background: url(../../images/design/bg_sugarcrm_button_left.gif) no-repeat left top; float: right; margin: 12px 0; padding-left: 4px; }
+		
+		.sugarCRMScreen .sugarCRMTable .standardSugarButton,
+		.sugarCRMScreen .sugarCRMTable .standardSugarButton input
+		{ border: none; height: 22px; width: 120px; }
+		
+			.sugarCRMScreen .sugarCRMTable .standardSugarButton input
+			{ background: url(../../images/design/bg_sugarcrm_button_right.gif) no-repeat right top; color: #333; padding: 0; }
+			
+	.sugarCRMFooter
+	{ background: url(../../images/design/bg_sugarcrm_screen.gif) repeat-x left bottom; height: 130px; text-align: center; }
+	
+		.sugarCRMFooter .sugarVersion
+		{ color: #8B8B8B; font: bold 12px Arial, Helvetica, sans-serif; padding-right: 30px; text-align: right; }
+	
+		.sugarCRMFooter .wrapper
+		{ color: #303030; margin: 0 auto; text-align: center; width: 500px; }
+	
+			.sugarCRMFooter .wrapper p
+			{ font-size: 11px; line-height: 18px; margin: 20px 0 10px; }
+			
+			.sugarCRMFooter .wrapper h1
+			{ font: normal 18px Arial, Helvetica, sans-serif; margin: 0; }
+			

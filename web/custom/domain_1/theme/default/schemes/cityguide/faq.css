@@ -1,0 +1,36 @@
+/**
+* eDirectory - FAQ
+*
+* @package			layout
+* @filesource		faq.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			September, 30, 2011
+*			
+*/
+
+.wrapper
+{ background: #FFF; border: 1px solid #CCC; }
+
+/** FAQ Paging */
+
+.paging	button
+{ color: #FFF; }
+
+	.descNavigation strong
+	{ color: #069; }
+
+.letterNavigation
+{ color: #999; }
+
+	.letterNavigation a, .letterNavigation a:visited
+	{ color: #999;  }
+	
+/** FAQ Search */
+
+.faqSearch
+{ border-bottom: 5px solid #F7F7F7; }
+
+.faqSearch form
+{ border: 1px solid #CCC; }

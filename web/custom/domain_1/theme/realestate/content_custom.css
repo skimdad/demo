@@ -1,0 +1,66 @@
+/**
+* eDirectory - Content Custom ( Dynamic content )
+*
+* @package			layout
+* @filesource		content_custom.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+.content-custom
+{ color:#636363; display:inline-block; padding-bottom:15px; }
+	
+/** Typography */
+
+.content-custom h1, 
+.content-custom h2, 
+.content-custom h3, 
+.content-custom h4, 
+.content-custom h5, 
+.content-custom h6
+{ background:none; border:none; color:#061826; font-family:Arial, Helvetica, sans-serif; font-weight:bold; height:auto; line-height:normal; margin:10px 0 0 0; padding:0; text-transform:none; }
+
+.content-custom h1
+{ font-size:16px;}
+
+.content-custom h2
+{ font-size:14px; }
+
+.content-custom h3
+{ font-size:12px; }
+
+.content-custom h4,
+.content-custom h5,
+.content-custom h6
+{ font-size:11px; }
+
+.content-custom p
+{ color:#000; line-height:inherit; margin-bottom:10px; }
+
+.content-custom span
+{ color:#000; }
+
+/** List */
+
+.content-custom ul,
+.content-custom ol
+{ color:#000; display:block; padding:10px 0 10px 40px; }
+
+.content-custom ul
+{ list-style:outside; list-style-type:disc; }
+
+.content-custom ol
+{ list-style:decimal; list-style-position:outside; }
+
+.content-custom  ul ul,
+.content-custom  ol ol,
+.content-custom  ul ol,
+.content-custom  ol ul
+{ padding-left:30px; padding-top:0; }
+
+.content-custom ul li,
+.content-custom ol li
+{ padding-bottom:4px; }

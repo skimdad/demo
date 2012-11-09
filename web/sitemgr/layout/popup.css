@@ -1,0 +1,177 @@
+/**
+* eDirectory - Style Definitions on Popups
+*
+* This style sheet describes the styles applied for popup windows on Site Manager
+*
+* @package		layout
+* @author			Arca Solutions
+* @copyright	Copyright (c) 2009, Arca Solutions Inc.
+*/
+
+/**
+* Typograph
+*
+* Headings and text styles
+*
+* @section		popup
+*/
+
+body
+{ background: #F1F1F1; color: #666; font: normal 12px/16px Arial, Helvetica, sans-serif; height: auto; padding: 10px; text-align: left; }
+
+body.feedbackWrapper
+{ width: auto; }
+
+.standardSubTitle
+{ border-bottom: none; }
+
+.complementaryInfo
+{ color: #666; display: block; font-size: 11px; font-weight: normal; }
+
+p
+{ padding: 5px 0 5px 0; }
+
+.standardButton
+{ padding: 0; }
+
+address
+{ color: #666; font-size: 11px; font-style: normal; font-weight: bold; }
+
+.standardTitle
+{ border-bottom: 3px double #CCC; color: #666; font-size: 18px; font-weight: normal; line-height: 18px; margin-bottom: 10px; padding: 0 0 10px 0; position: relative; text-align: left; }
+
+.tabs
+{ margin-top: 10px; }
+
+input, select, textarea
+{ border: 1px solid #CCC; border-bottom: 1px solid #EEE; border-right: 1px solid #EEE; color: #666; padding: 2px; }
+
+/**
+* Standard Form
+*
+* @section		popup
+* @subsection	forms
+*/
+
+
+.standardForm
+{ border: 0; padding: 0; width: 100%; }
+
+	.standardForm input, .standardForm textarea
+	{ font: normal 12px Arial, Helvetica, sans-serif; width: 95%; }
+	
+	.standardForm .formCode
+	{ width: 100px; }
+
+	.standardForm th
+	{ font-size: 11px; font-weight: normal; padding: 5px 10px 0 0; text-align: right; vertical-align: top; width:auto }
+	
+	.standardForm td
+	{ padding: 5px 0 5px 0px; }
+	
+	.standardForm .formCaptchaWarning
+	{ padding-right: 20px; }
+	
+	.standardForm td table
+	{ width: 96%; }
+	
+	.standardFormButton
+	{ width: 100%; text-align: right; }
+
+		.standardFormButton .standardButton
+		{ float: right; }
+
+/**
+* System Messages
+*
+* @section		popup
+* @subsection	system-messages
+*/
+
+.informationMessage, .errorMessage, .successMessage
+{ height: auto; margin: 10px 0 10px 0 }
+
+/**
+* Slideshow Gallery
+*
+* @section		popup
+* @subsection	slideshow
+*/
+
+.galleryBody
+{ padding: 10px 0 0 25px; }
+
+.galleryBody .standardTitle
+{ margin-bottom: 0; }
+
+.galleryNav
+{ background: url(images/design/bg_paging.gif) repeat-x bottom left; height: 100%; overflow: hidden; padding: 10px 10px 5px 10px; position: relative; }
+
+	.galleryNav .slide
+	{ display: block; float: left; width: 40%; }
+	
+	.galleryNav .galleryNavigation
+	{ display: block; float: right; text-align: right; width: 40%; }
+	
+.slideshow
+{ margin: 10px auto 10px auto; text-align: center; }
+
+	.slideshow a:hover
+	{ text-decoration: none; }
+
+.caption
+{ background: #FFF; border-top: 1px solid #CCC; display: block; margin: 10px 0 0 0; padding: 5px 10px 5px 0; text-align: center; }
+	
+/**
+* Promotion
+*
+* @section		popup
+* @subsection	promotion
+*/
+
+.promotionContent
+{ height: 315px; overflow: hidden; }
+
+	.promotionContentHolder
+	{}
+
+	.promotionContentSlider
+	{ display: none; padding: 15px 0 13px; position: absolute; right: 4px; }
+
+.promotionImage
+{ border: 1px solid #CCC; float: left; margin: 0 10px 10px 0; padding: 2px; }
+
+.couponImage
+{ text-align: center; }
+
+.promotionNavbar
+{ border: 1px solid #CCC; bottom:0; clear: both; font-size: 11px; height: 30px; left:0; line-height: 30px; margin: 10px 15px 15px; position:absolute; width:598px; }
+
+	.promotionNavbar li
+	{ float: right; padding: 0 10px; }
+	
+	.promotionNavbar a, .promotionNavbar a:visited
+	{ color: #666; }
+	
+.warning
+{ background: #F7F7F7; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC; clear: both; color: #666; font-size: 11px; margin: 10px 0 0; padding: 5px; }
+
+/**
+* E-mail to a friend
+*
+* @section		popup
+* @subsection	email
+*/
+
+.frmEmail .standardTitle
+{ margin-bottom: 10px; }
+
+.frmEmail .standardButton
+{ display: inline; float: right; margin-right: 20px; }
+
+.frmEmail .closeButton
+{ display: block; float: none; margin: 10px auto 0; }
+
+.frmEmail .closeButton, .frmEmail .closeButton button, 
+.frmEmail .closeButton a, .frmEmail .closeButton a:visited
+{ width: 200px; }

@@ -1,0 +1,130 @@
+<script src="EDIRECTORY_URL/scripts/jquery.js" type="text/javascript"></script>
+<script>
+
+	function ExportItems(action,elementID){
+		
+		$("#"+elementID).html("<img src='EDIRECTORY_URL/images/img_loading.gif' />");
+		
+		$.ajax({
+			type: 'POST',
+			url: './admin-ajax.php',
+			data: 'action='+action,
+			success:function( response ){
+						$("#"+elementID).html(response);
+					}
+		});
+		
+	}
+
+</script>
+
+<style>
+	.WideTableEdir {
+		background-color: #F9F9F9;
+		border-color: #DFDFDF;
+		border-radius: 3px 3px 3px 3px;
+		border-spacing: 0;
+		border-style: solid;
+		border-width: 1px;
+		clear: both;
+		margin: 0;
+		width: 400px;
+		
+    
+	}
+	
+	.WideTableEdir a {
+		text-decoration: none;
+	}
+	
+	.WideTableEdir td, .WideTableEdir th {
+		border-style: solid;
+		border-width: 1px 0 0 0;
+		border-color: #DFDFDF;
+		border-spacing: 0;
+	}
+	
+	.WideTableEdir td {
+		font-size: 12px;
+		padding: 4px 7px 2px;
+		vertical-align: middle;
+		line-height: 30px;
+		width: 33%;
+		text-align: center;
+	}
+	
+	.WideTableEdir th {
+		font-size: 14px;
+		line-height: 1.3em;
+		padding: 7px 7px 8px;
+		text-align: center;
+	}
+	
+	
+</style>
+
+{UPDATED}
+<div class="wrap" id="bbuinfo_config">
+  <h2>EDIRECTORY_TITLE_PAGE</h2>
+  <form name="mpp_config_form" method="post">
+		{ERROS}  
+		<p>
+		  To use your eDirectory plugin add the WordPress plugin key:<br>
+		</p>
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>
+					<strong>Insert here your WordPress plugin key:</strong>
+				</td>
+				<td>
+					<input dir="ltr" id="edir_key" name="edir_key" style="width: 350px;" value="{EDIRECTORY_KEY}"  type="text" />
+				</td>
+				<td>
+					<input value="Save" name="bbuinfo_config_submit" type="submit" />
+				</td>
+			</tr>
+		</table>
+  </form>
+  <br />
+  <br />
+  <form name="import_items" method="post">
+	  <table class="wp-list-table WideTableEdir posts">
+		  <tr>
+			  <th class="manage-column column-title" colspan="2">
+				  <span>Export Items</span>
+			  </th>
+			  <th>
+				  Status
+			  </th>
+		  </tr>
+		  <tr>
+			  <td>
+				  All Categories:
+			  </td>
+			  <td>
+				  <a href="javascript:void(0)"  onclick="javacript:ExportItems('ProcessExportCategory','show_export_progress_categories');">Export / Update All</a>
+			  </td>
+			  <td id="show_export_progress_categories"></td>
+		  </tr>
+		  <tr>
+			  <td>
+				  All Posts:
+			  </td>
+			  <td>
+				  <a href="javascript:void(0)"  onclick="javacript:ExportItems('ProcessExportPosts','show_export_progress_posts');">Export / Update All</a>
+			  </td>
+			  <td id="show_export_progress_posts"></td>
+		  </tr>
+		  <tr>
+			  <td>
+				  All Comments:
+			  </td>
+			  <td>
+				  <a href="javascript:void(0)"  onclick="javacript:ExportItems('ProcessExportComments','show_export_progress_comments');">Export / Update All</a>
+			  </td>
+			  <td id="show_export_progress_comments"></td>
+		  </tr>
+	  </table>
+  </form>
+	  
+</div>

@@ -1,0 +1,56 @@
+/**
+* eDirectory - Advertise Page
+*
+* @package			layout
+* @filesource		advertise.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 06, 2011
+*			
+*/
+
+/** Tab navigation */
+
+.tabs
+{ border-bottom:1px solid #E3E3E3; }
+
+	.tabs li
+	{ background:#D7DBDF; border-top:2px solid #F1F1F1; }
+	
+		.tabs li a:link, .tabs li a:visited, .tabs li a:active
+		{ color:#081C2A; }
+		
+		.tabs li.active
+		{ background:#690; border-top:2px solid #069; }
+		
+			.tabs li.active a:link, .tabs li.active a:visited, .tabs li.active a:active
+			{ color:#FFF; }
+
+/** Level > misc */
+
+	.level h2.level-name
+	{ border-bottom-color:#CCC; color:#069; }
+	
+	.level .price
+	{ color:#690; }
+	
+/** Level > summary */
+		
+	.level-summary .summary .image img
+	{ border:3px solid #D0D5D8; }
+
+/** Level > detail */
+	
+	.level-detail .detail
+	{ background:#FDFDFD; }
+		
+/** Level > detail > Deals differences */
+
+.level-detail .deal .deal-tag .price
+{ color:#FFF; }
+		
+/** Level > level banner */
+
+.level-banner
+{ background:#F1F1F1; }

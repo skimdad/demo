@@ -1,0 +1,53 @@
+/**
+* eDirectory - Print ( All pages )
+*
+* This style sheet describes the structure and the main components
+* of all Modules Landing Pages
+*
+* @package			print
+* @filesource		print.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+/** Hidden items > structure */
+
+#user-navbar,
+#header-wrapper,
+#navbar-wrapper,
+#footer-wrapper,
+.advertisement
+{ display:none; }
+
+/** Hidden items > listing detail */
+
+button,
+.button,
+.share,
+.contact-form,
+iframe
+{ display:none; }
+
+/** Hidden items > event detail */
+
+.calendar
+{ display:none; }
+
+/** Hidden items > system messages */
+
+.informationMessage,
+.errorMessage,
+.successMessage,
+.warningMessage
+{ display:none; }
+
+/** Deal print */
+
+.deal
+{ border:1px dashed #CCC; padding:20px; }
+
+.deal h1
+{ font-size:30px; margin:0; padding:0 0 10px 0; text-align:left; text-decoration:underline; width:100%; }

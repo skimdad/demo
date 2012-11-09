@@ -1,0 +1,67 @@
+/**
+* eDirectory - Advertise Page
+*
+* @package			layout
+* @filesource		advertise.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 07, 2011
+*			
+*/
+
+/* Content misc > Buttons > Button profile */
+
+	.button-profile h2
+	{ border:1px solid #B3B3B3 !important; }
+	
+		.button-profile h2 a:link, .button-profile h2 a:visited, .button-profile h2 a:active
+		{ background:#69246A url(images/structure/bg-button-action-contact.gif) repeat-x 0 0; border:1px solid #DDD; color:#69246A; }
+		
+			.button-profile h2 a:hover
+			{ border-color:#EEE; }
+
+/** Tab navigation */
+
+.tabs
+{ border-bottom:1px solid #E3E3E3; }
+
+	.tabs li
+	{ background:#D7DBDF; border-top:2px solid #F1F1F1; }
+	
+		.tabs li a:link, .tabs li a:visited, .tabs li a:active
+		{ color:#081C2A; }
+		
+		.tabs li.active
+		{ background:#FF0042; border-top:2px solid #06C; }
+		
+			.tabs li.active a:link, .tabs li.active a:visited, .tabs li.active a:active
+			{ color:#FFF; }
+
+/** Level > misc */
+
+	.level h2.level-name
+	{ border-bottom-color:#BAC2C8; color:#69246A; }
+	
+	.level .price
+	{ color:#081C2A; }
+	
+/** Level > summary */
+		
+	.level-summary .summary .image img
+	{ border:3px solid #D0D5D8; }
+
+/** Level > detail */
+	
+	.level-detail .detail
+	{ background:#FDFDFD; }
+		
+/** Level > detail > Deals differences */
+
+.level-detail .deal .deal-tag .price
+{ color:#FFF; }
+		
+/** Level > level banner */
+
+.level-banner
+{ background:#F1F1F1; }

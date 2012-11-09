@@ -1,0 +1,194 @@
+/**
+* eDirectory - Popups ( Modal boxes )
+*
+* This style sheet describes the structure and the main components
+* about eDirectory's interface
+*
+* @package			layout
+* @filesource		popup.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9
+* @since			October, 17, 2011
+*			
+* WARNING: Always use the id "#TB_window" as hierarchy for Popup styles.
+*/
+
+/* Popups > body */
+
+body
+{ background:none !important; overflow-x:hidden !important; }
+
+/* Popups > modal content */
+
+.modal-content
+{ background:none; padding:10px 5px 0; width:569px; overflow:hidden !important; }
+
+	.modal-content h2
+	{ _height:30px; margin-bottom:5px; }
+	
+	.modal-content .close
+	{ font-style:italic; padding:5px 0 0 0; }
+	
+		.modal-content form span.comment
+		{ color: #8A8A8A; display: block; font-family: Arial,Verdana,sans-serif; font-size: 9px; font-weight: normal; line-height: 20px; }
+	
+.modal-content-small
+{ width:320px; }
+
+.modal-content .customInvoice h3
+{ color:#636363; font-family:Arial, Helvetica, sans-serif; }
+	
+/* Popups > modal content upload */
+	
+.modal-content-upload
+{ width:755px; }
+
+	.modal-content-upload h3
+	{ text-align:left; }
+	
+/** Popups > login */
+
+.login
+{ padding:0 !important; width:auto !important;}
+
+	.login h2
+	{ margin-bottom:0 !important; }
+
+	.login .select
+	{ width:250px !important; }
+	
+	.login .text
+	{ width:244px !important; }
+	
+	.login .checkbox
+	{ margin-right:5px; }
+
+/** Popups > buttons */
+
+button
+{ background:url(images/structure/bg-search-button.gif) repeat-x 0 0; cursor:pointer; color:#555; font-size:11px; font-style:italic; font-weight:normal; height:33px; letter-spacing:-0.5px; line-height:33px; padding:0 10px; text-shadow:1px 1px 1px #FFF; text-transform:uppercase; width:100px; }
+	
+	button 
+	{ -moz-border-radius:100px; -webkit-border-radius:100px; border-radius:100px; }
+	
+	button:focus,
+	button:hover
+	{ color:#111; }
+	
+	button:active
+	{ color:#111; }
+	
+/** Popups > deal */
+
+	.deal h1
+	{ background:#E5E7E9; display:block; margin:0 auto 15px auto; padding:10px; text-align:center; width:200px; }
+	
+		.deal h1
+		{ -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }
+	
+	.deal h2
+	{ border:none; color:#081C2A; font-size:22px; margin:0; text-transform:none; }
+	
+	.deal h3
+	{ color:#081C2A; font-size:15px; }
+	
+	.deal strong
+	{ color:#061826; }
+	
+/** Popups > rate */
+
+.modal-content .rate
+{ background:#F2F3F4; padding:10px !important; margin:0 auto 15px auto; width:138px; }	
+
+	.modal-content .rate
+	{ -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }
+
+	.modal-content .rate img
+	{ display:inline; }
+	
+	.modal-content .rate h3
+	{ font-family:Arial, Helvetica, sans-serif; padding-bottom:10px; text-align:center; }
+	
+/** Popups > slideshow */
+
+.slideshow ul
+{ padding:15px 0; }
+
+	.slideshow li
+	{ display:block; text-align:center; }
+
+		.slideshow li img
+		{ border:none; display:inline; }
+		
+		.slideshow li span
+		{ color:#999; display:block; font-style:italic; }
+		
+	.slideshow .control
+	{ background:#F2F3F4; height:auto; overflow:hidden; padding:5px 10px; }
+	
+		.slideshow .control
+		{ -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }
+			
+/** Popup Forms */	
+
+/** Contact form > form */
+
+.modal-content .form
+{ padding:15px 0 0 0; }
+
+/** Contact form > form > form tags */
+
+	.modal-content .form div
+	{ padding:0 0 10px 0; }
+		
+		.modal-content .form div .text,
+		.modal-content .form div .textarea
+		{ border:1px solid #BBB; width:266px; }
+		
+		.modal-content .form div label
+		{ color:#636363; display:block; padding:0 0 2px 0; }
+		
+			.modal-content .form div label span
+			{ font-style:italic; }
+
+/** Contact form > form > captcha */
+			
+		.modal-content .form p
+		{ padding:5px 0 15px 0; }
+		
+		.modal-content .form .captcha
+		{ float:left; padding:0 15px 0 0; width:102px; }
+			
+			.modal-content .form .captcha img
+			{ border:1px solid #B7C0C7; margin:0 0 7px 0; }
+			
+			.modal-content .form .captcha .text
+			{ width:96px; }
+		
+/** Contact form > form > structure */
+	
+	.modal-content .form .action
+	{ background:#E5E7E9; border-top:1px solid #D0D5D8; clear:both; display:inline-block; height:auto; overflow:hidden; padding:15px; }
+	
+		.modal-content .form .action
+		{ -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }
+		
+		.modal-content-small .form .action
+		{ text-align:center; }
+	
+		.modal-content .form .action p
+		{ padding-top:0; }
+	
+	.modal-content .form .left,
+	.modal-content .form .right
+	{ padding:0 0 20px 0; }
+	
+
+/** Click to call > structure */
+
+	.modal-content-small .info img
+	{ float:left; margin-right:5px; }
+	
+	.modal-content-small .info p
+	{ padding-top:3px; }

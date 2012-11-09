@@ -1,0 +1,149 @@
+/**
+* eDirectory - Order Section
+*
+* @package			layout
+* @filesource		order.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			September, 29, 2011
+*			
+*/
+
+.standardSubTitle
+{ border-bottom:1px solid #E6E8E9; color:#F57E8F !important; }
+
+	.standardSubTitle span
+	{ color:#999; }
+
+/** Order structure */
+
+	.orderTable td, .orderTable th, .orderTable tr
+	{ color:#F57E8F; }
+
+	.orderTitle
+	{ background: #069; color: #FFF; }
+
+	.orderTopdetail
+	{ color:#000; }
+	
+	.orderUserTable
+	{ background:#F7F7F7; }
+	
+	.orderUserTable table
+	{ background:#FFF; border:2px solid #EFEFEF; }
+	
+	.orderTable .orderUserTable .formFieldsLogin input
+	{ border:1px solid #E1E1E1; border-bottom:1px solid #EEE; }
+	
+/** Order signuptable */
+
+.standardSIGNUPTable td, .standardSIGNUPTable th, .standardSIGNUPTable tr
+{ color:#777; }
+
+.standardSIGNUPTable td span
+{ color:#999; }
+
+#checkUsername .UsernameRegistered
+{ color:#FF0000; }
+
+#checkUsername .UsernameNotRegistered
+{ color:#008000; }
+
+.standardSIGNUPTable .errorTitle
+{ color:#6B2E37; }
+
+.standardSIGNUPTable input, .standardSIGNUPTable button, .standardSIGNUPTable select
+{ border:1px solid #CCC; }
+
+.standard-tableTOPBLUE th
+{ border-bottom:1px solid #E6E8E9; color:#F57E8F; }
+
+.orderTotalAmount
+{ background:#F5F5F5; border:1px solid #DDD; color:#D15465; }
+
+	.orderTotalAmount strong
+	{ color:#666; }
+
+	.loadingOrderCalculate
+	{ color:#D15465; }
+
+.standardButton	button
+{ background:#F7B3BF; color:#FFF; }
+		
+	.standardButton	button:focus, .standardButton	button:hover
+	{ color:#910000; }
+	
+	.standardButton	button:active
+	{ color:#910000; }
+	
+/** Claim Order */
+	
+	.standardChooseLevel th, .standardChooseLevel td
+	{ border-bottom:1px solid #EEE; color:#62707B; }
+	
+	.standardChooseLevel th
+	{ color:#666; }
+		
+	.standardChooseLevel td select
+	{ border:1px solid #D4D4D4; border-right:1px solid #EEE; border-bottom:1px solid #EEE; }
+
+/** Tree View Order */
+	
+	.treeView li .categoryTitle, .treeView li .categoryTitle:visited
+	{ color: #444; }
+	
+	.categoryBullet
+	{ background: url(../../../../images/design/bullet_sub_menu.gif) no-repeat 4px 8px; }	
+	
+	.treeView .categoryAdd, .treeView .categoryAdd:visited
+	{ background: #FFF; /* Background is needed for jQuery effects. Do not remove it. */ color: #F57E8F; }
+
+	.treeView span, .treeView .treeviewMainMenu_divNodes2 span
+	{ color: #351; } 
+	
+	.treeView li.loading
+	{ background:url(images/iconography/icon-loading-content.gif) no-repeat 20px 5px; }
+	
+	.treeView .treeviewLoadingMessage, .treeView .treeviewMainMenu
+	{ background: #FFF; border: 1px solid #BCE; }
+	
+	.treeView .tableCategoriesBUTTONS input, .treeView .tableCategoriesBUTTONS button
+	{ background:#F7B3BF; border:none !important; color:#FFF; }
+
+.categoryTreeview .categorySuccessMessage, .categoryTreeview .categoryErrorMessage
+{ background: #FFF; /* Background is needed for jQuery effects. Do not remove it. */ color: #9FB4C3; }
+
+.categoryTreeview .categoryErrorMessage
+{ color: #C10924; }
+
+/** Order message */
+	
+.errorTitle
+{ color: #C00; }
+
+/** Order Page > One Column **/
+
+	.orderUserTable td
+	{ color:#777; }
+
+.paymentMethods
+{ color:#666; }
+
+/** Order Page > Standard steps */
+
+	.standardStep li
+	{ color:#D15465; }
+	
+		.standardStep li span
+		{ color:#999; }
+		
+		.standardStep li span
+		{ text-shadow:1px 1px 0 #FFF; }
+	
+	.standardStep .standardStepAD
+	{ color:#D15465; }
+	
+		.standardStep .stepActived span
+		{ color:#444; }
+		

@@ -1,0 +1,13 @@
+
+ErrorDocument 400 /errorpage.php
+ErrorDocument 401 /errorpage.php
+ErrorDocument 403 /errorpage.php
+ErrorDocument 404 /errorpage.php
+ErrorDocument 500 /errorpage.php
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)?$ ./index.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RedirectMatch (.*)\.inc$ /index.php

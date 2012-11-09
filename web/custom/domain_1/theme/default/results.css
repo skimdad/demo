@@ -1,0 +1,267 @@
+/**
+* eDirectory - Result Pages ( Modules )
+*
+* @package			layout
+* @filesource		results.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+/** Results Misc > Structure */
+
+.content
+{ padding-top:0; }
+
+.content-top .featured
+{ padding:0; }
+		
+/** Browse by Category */
+
+.browse-category
+{ background:#EAEAEB; border-top:1px solid #B6BEC5; height:1%; margin-top:20px; overflow:hidden; padding:15px; }
+
+	.browse-category li
+	{ float:left; padding:0 30px 8px 0; width:196px; }
+	
+		.browse-category li span
+		{ color:#62707B; font-style:italic; }
+		
+		.browse-category li.last
+		{ padding-right:0; }
+		
+	.browse-category li ul
+	{ padding:4px 0 4px 10px; }
+		
+		.browse-category li ul li
+		{ padding:1px 0; width:190px; }
+			
+			.browse-category li ul li a:link,
+			.browse-category li ul li a:visited,
+			.browse-category li ul li a:active
+			{ color:#447DAA; }
+			
+				.browse-category li ul li span
+				{ color:#536979; }
+				
+/** Results Info */	
+
+.search-info
+{ border-bottom:none; font-size:12px; margin-bottom:0; padding:10px 0 0 0; text-transform:none; }
+
+	.search-info strong
+	{ color:#061826; font-size:14px; font-weight:normal; }
+	
+/** Summary */	
+
+.summary
+{ background:#F4F5F6; border:1px solid #BCCDDB; height:1%; margin:0 0 30px 0; overflow:hidden; position:relative; }
+
+/** Summary > share */
+
+	.summary .share
+	{ background:#D5DDE4; border-bottom:1px solid #648094; height:20px; overflow:hidden; padding:0 10px 0 0; }
+		
+		.summary .share .share-actions
+		{ float:right; }
+		
+		.summary .share-social
+		{ float:left; }
+		
+			.summary .share-social li
+			{ padding:0 0 0 10px; }
+		
+		.summary .share ul li,
+		.summary .share-social li
+		{ color:#818D97; display:block; float:left; font-size:10px; line-height:20px; padding:0 2px; text-transform:uppercase; }
+		
+			.summary .share ul li.icon,
+			.summary .share-social li.icon
+			{ padding:2px 2px 2px 1px; }
+		
+			.summary .share ul li img,
+			.summary .share-social li img
+			{ border:none; }
+				
+/** Summary > structure */
+	
+	.summary .left,
+	.summary .right,
+	.summary .full
+	{ padding:15px; }
+	
+	.summary .left
+	{ padding-right:0; width:395px; }
+	
+	.summary .right
+	{ padding-left:0; width:240px; }
+	
+	.summary .full
+	{ height:1%; overflow:hidden; width:646px; }
+	
+/** Summary > items > title */
+
+	.summary .title
+	{ padding:0 0 8px 0; }
+	
+		.summary .title h3
+		{ font-size:14px; font-weight:bold; padding-top:0; }
+		
+			.summary .title .map
+			{ display:inline !important; }
+			
+				.summary .title h3 a.map-link:link,
+				.summary .title h3 a.map-link:visited,
+				.summary .title h3 a.map-link:active
+				{ color:#004276; }
+				
+					.summary .title h3 a.map-link:hover
+					{ color:#FF510C; text-decoration:none; }
+					
+/** Summary > items > image */
+
+	.summary .image
+	{ float:left; margin:0 15px 0 0; }
+		
+/** Summary > items > rate */
+		
+	.summary .rate
+	{ clear:both; height:1%; overflow:hidden; padding:10px 0 0 0; width:158px; }
+	
+		.summary .rate .rate-stars
+		{ height:1%; overflow:hidden; }
+	
+		.summary .rate img
+		{ float:left; height:13px; margin:0 1px 0 0; width:13px; }
+		
+		.summary .rate a,
+		.summary .rate span
+		{ font-size:10px; font-style:italic; float:right; text-align:center; }
+		
+			.summary .rate p
+			{ clear:both; padding:2px 0 0 0; }
+		
+				.summary .rate p a
+				{ color:#FF510C; font-style:normal; font-weight:bold; float:none; }
+				
+/** Summary > items > check in */
+
+	.summary .check-in
+	{ border-top:1px solid #C4C9CC; margin:4px 0 0 0; padding:4px 0 0 0; }
+	
+		.summary .check-in a:link,
+		.summary .check-in a:visited,
+		.summary .check-in a:active
+		{ font-size:10px; font-style:italic; font-weight:bold; }
+		
+/** Summary > items > info */
+		
+	.summary .info
+	{ background:url(images/structure/bg-split-summary.gif) repeat-y 0 0; padding:0 0 0 15px; }
+	
+		.summary .full .info
+		{ background:none; }
+		
+		.summary .info address
+		{ color:#62707B; line-height:16px; padding:0 0 10px 0; }
+		
+			.summary .info address span
+			{ display:block; }
+		
+		.summary .info strong
+		{ color:#061826;}
+		
+		.summary .info .claim
+		{ padding:10px 0 0 0; }
+		
+			.summary .info .claim a:link,
+			.summary .info .claim a:visited,
+			.summary .info .claim a:active
+			{ color:#FF510C; font-weight:bold; }
+
+/** Summary > items > badges */
+			
+	.summary .badges
+	{ clear:both; height:1%; overflow:hidden; padding:10px 0 0 0; }
+	
+		.summary .badges img
+		{ float:left; margin:0 10px 0 0; }
+	
+			
+/** Summary > items > deal */
+				
+	.summary .deal
+	{ height:auto; margin:0 0 8px 0; overflow:hidden; width:240px; }
+	
+		.summary .deal h4
+		{ background:#EAEAEB; float:left; font-size:10px; font-weight:bold; height:24px; line-height:12px; padding:4px 4px 4px 6px; width:150px; }
+		
+			.summary .deal h4 a:link,
+			.summary .deal h4 a:visited,
+			.summary .deal h4 a:active
+			{ color:#061826; }
+		
+/** Summary > items > empty */
+
+	.summary .empty
+	{ height:32px; margin:0 0 8px 0; }	
+	
+/** Summary > Summary Deal differences */
+
+.summary-deal
+{ background:none; border:none; border-bottom:1px solid #CDD4D9; height:1%; margin:0 0 15px 0; overflow:hidden; padding:0 0 15px 0; position:relative; }
+
+	.summary-deal:last-child
+	{ border-bottom:none; }
+
+	.summary-deal .left
+	{ height:auto; overflow:hidden; padding:0; width:240px; }
+	
+	.summary-deal .right
+	{ padding:0; width:423px; }
+	
+	.summary-deal .tag
+	{ float:left; padding-left:2px; width: 80px; }
+	
+	.summary-deal .image
+	{ margin:0; float:right; width:158px; }
+	
+	.summary-deal .share-social
+	{ float:right; padding:4px 4px 0 0; }
+	
+/** Summary Backlink */
+
+	.summary-backlink
+	{ background-color:#E4E6E9; border-color:#061826; }
+	
+		.summary-backlink .share
+		{ background-color:#061826; border-bottom-color:#000; border-top:3px solid #FF4800; padding:2px 2px 0 2px; }
+		
+			.summary-backlink .share a:link,
+			.summary-backlink .share a:visited,
+			.summary-backlink .share a:active
+			{ color:#FFF; }
+			
+			.summary-backlink .share img
+			{ -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; }
+
+/** Sidebar */
+
+/** Sidebar > google map definitions */
+
+.sidebar .map
+{ border:1px solid #CCC; height:288px; margin:0 0 15px 0; width:238px; }
+
+.sidebar .map-control
+{ height:22px; text-align:right; }
+
+	.sidebar .map-control a
+	{ display:block; font-size:10px; padding:7px 0 0 0; }
+	
+/** Level Preview */
+
+.level-preview .summary .no-link, .level-preview .level-summary .summary .rate-stars img
+{ border:0 none !important; }
+	

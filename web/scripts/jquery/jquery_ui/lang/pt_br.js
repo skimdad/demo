@@ -1,0 +1,58 @@
+/////////////////////////////////////////////////
+// Labels to DataPicker calendar
+/////////////////////////////////////////////////
+var EDIR_MONTH_ARRAY = new Array();
+EDIR_MONTH_ARRAY[0] = "Janeiro";
+EDIR_MONTH_ARRAY[1] = "Fevereiro";
+EDIR_MONTH_ARRAY[2] = "Mar&ccedil;o";
+EDIR_MONTH_ARRAY[3] = "Abril";
+EDIR_MONTH_ARRAY[4] = "Maio";
+EDIR_MONTH_ARRAY[5] = "Junho";
+EDIR_MONTH_ARRAY[6] = "Julho";
+EDIR_MONTH_ARRAY[7] = "Agosto";
+EDIR_MONTH_ARRAY[8] = "Setembro";
+EDIR_MONTH_ARRAY[9] = "Outubro";
+EDIR_MONTH_ARRAY[10] = "Novembro";
+EDIR_MONTH_ARRAY[11] = "Dezembro";
+
+var EDIR_MONTH_ABBREVIATION = new Array();
+EDIR_MONTH_ABBREVIATION[0]= "Jan";
+EDIR_MONTH_ABBREVIATION[1]= "Fev";
+EDIR_MONTH_ABBREVIATION[2]= "Mar";
+EDIR_MONTH_ABBREVIATION[3]= "Abr";
+EDIR_MONTH_ABBREVIATION[4]= "Mai";
+EDIR_MONTH_ABBREVIATION[5]= "Jun";
+EDIR_MONTH_ABBREVIATION[6]= "Jul";
+EDIR_MONTH_ABBREVIATION[7]= "Ago";
+EDIR_MONTH_ABBREVIATION[8]= "Set";
+EDIR_MONTH_ABBREVIATION[9]= "Out";
+EDIR_MONTH_ABBREVIATION[10]= "Nov";
+EDIR_MONTH_ABBREVIATION[11]= "Dez";
+
+var EDIR_DAYNAMES_ARRAY = new Array();
+EDIR_DAYNAMES_ARRAY[0] ="Domingo";
+EDIR_DAYNAMES_ARRAY[1] ="Segunda-Feira";
+EDIR_DAYNAMES_ARRAY[2] ="Ter&ccedil;a-Feira";
+EDIR_DAYNAMES_ARRAY[3] ="Quarta-Feira";
+EDIR_DAYNAMES_ARRAY[4] ="Quinta-Feira";
+EDIR_DAYNAMES_ARRAY[5] ="Sexta-Feira";
+EDIR_DAYNAMES_ARRAY[6] ="S&aacute;bado";
+
+var EDIR_DAYNAMES_ABBREVIATION = new Array();
+EDIR_DAYNAMES_ABBREVIATION[0] = "Dom";
+EDIR_DAYNAMES_ABBREVIATION[1] = "Seg";
+EDIR_DAYNAMES_ABBREVIATION[2] = "Ter";
+EDIR_DAYNAMES_ABBREVIATION[3] = "Qua";
+EDIR_DAYNAMES_ABBREVIATION[4] = "Qui";
+EDIR_DAYNAMES_ABBREVIATION[5] = "Sex";
+EDIR_DAYNAMES_ABBREVIATION[6] = "Sab";
+
+var EDIR_DAYNAMES_MIN = new Array();
+EDIR_DAYNAMES_MIN[0] = "D";
+EDIR_DAYNAMES_MIN[1] = "S";
+EDIR_DAYNAMES_MIN[2] = "T";
+EDIR_DAYNAMES_MIN[3] = "Q";
+EDIR_DAYNAMES_MIN[4] = "Q";
+EDIR_DAYNAMES_MIN[5] = "S";
+EDIR_DAYNAMES_MIN[6] = "S";
+/////////////////////////////////////////////////

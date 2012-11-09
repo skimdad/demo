@@ -1,0 +1,27 @@
+
+RewriteEngine On
+RewriteBase /listing
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^(.*/share|share)/(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)?(/reviews|reviews)/share|share)/(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ ./facebook_share.php?from=$1&friendly_url=$4 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)?(/checkins|checkins)/share|share)/(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ ./facebook_share.php?from=$1&friendly_url=$4 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RewriteCond %{REQUEST_URI} ^(.*/backlink|backlink)/(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/backlink|backlink)/(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ ./backlink_return.php?friendly_url=$3 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ ./detail.php?listing=$1 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)#([a-zA-Z0-9-]+)$ ./detail.php?listing=$1#2 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^(.*/([a-zA-Z0-9_-]+)|([a-zA-Z0-9_-]+))\.(html|htm)$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/type|type)/([a-zA-Z0-9_-]+)$ ./results.php?template=$2 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/guide|guide)/(.*)?$ ./results.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/location|location)/(.*)?$ ./results.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/reviews|reviews)/(.*)?$ ./comments.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/checkins|checkins)/(.*)?$ ./commentsCheckin.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/claim|claim)/(.*)?$ ../claim.php?claim=$3 [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/search|search)/(.*)?$ ./results.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:REDIRECT_edir_language},L]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/pagenotfound|pagenotfound)$ ../errorpage.php [E=edir_language:%{ENV:REDIRECT_edir_language},L]

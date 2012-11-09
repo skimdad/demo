@@ -1,0 +1,235 @@
+/**
+* eDirectory - Blog Module
+*
+* @package			layout
+* @filesource		blog.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9
+* @since			October, 17, 2011
+*			
+*/
+
+/** Blog Misc > Structure */
+
+.content
+{ padding-top:10px; }
+
+/** Blog Post Summary */
+
+.summary
+{ background:none !important; color:#777; height:auto; overflow:hidden; padding:0 0 30px 0; }
+
+	.summary  h2
+	{ border:none; font-size:24px; line-height:26px; margin-bottom:0 !important; padding:10px 0 2px 0; text-transform:none; }
+	
+		.summary h2 a:link,
+		.summary h2 a:visited,
+		.summary h2 a:active
+		{ color:#000; } 
+		
+	.summary .desc
+	{ padding:0 0 20px 0; }
+
+	.summary .image
+	{ float:left; padding:0 20px 30px 0; }
+	
+	.summary .no-image
+	{ height:179px; width:318px; }
+		
+	.summary .actions
+	{ background:#EEF2F5; border-bottom:1px solid #BECAD2; color:#62707B; font-size:10px; height:20px; line-height:20px; overflow:hidden; padding:0 5px; width:314px; }
+	
+		.summary .actions a:link,
+		.summary .actions a:visited,
+		.summary .actions a:active
+		{ font-size:10px; line-height:20px; text-transform:uppercase; }
+		
+		.summary .actions .right
+		{ color:#000; }
+	
+	.summary a.read-more:link,
+	.summary a.read-more:visited,
+	.summary a.read-more:active
+	{ display:block; padding:20px 0 0 0; }
+	
+	.summary p, .summary li, .summary span
+	{ color:#62707B; }
+	
+	.summary ul, .summary ol
+	{ padding:10px 0 10px 40px; }
+	
+	.summary ul
+	{ list-style:disc outside none; }
+	
+	.summary ol
+	{ list-style:decimal outside none; }
+	
+/** Blog Post Summary > Results info */
+
+.search-info
+{ border-bottom:none; font-size:12px; margin-bottom:0; padding:10px 0 0 0; text-transform:none; }
+
+	.search-info strong
+	{ color:#061826; font-size:14px; font-weight:normal; }
+
+/** Blog Post Detail ( differences from summary view ) */
+
+.detail 
+{ padding:15px 15px 30px 15px; }
+
+/** Detail > items > misc */
+	
+	.detail h1
+	{ color:#061826; font-size:30px; line-height:34px; padding:0 0 15px 0; }
+	
+	.detail h2
+	{ font-size:13px; margin-bottom:6px; margin-top:15px; }
+	
+	.detail .info
+	{ padding:0 0 15px 0; }
+	
+	.detail .image
+	{ float:left; padding:0 30px 20px 0; }
+
+	.detail .no-image
+	{ height:179px; width:318px; }
+
+/** Detail > comments */
+
+	.detail .comment
+	{ border-top:1px solid #E6E8E9; height:auto; overflow:hidden; padding:15px 0; }
+	
+		.detail .first
+		{ border:none; padding-top:10px; }
+	
+		.detail .comment .image
+		{ padding:0; }
+		
+		.detail .comment .no-image
+		{ background:#FFF url(images/iconography/icon-user-thumb.gif) no-repeat 0 0; height:50px; width:50px; }
+		
+		.detail .comment p
+		{ margin:0 0 2px 0; padding:0 0 0 71px; }
+		
+		.detail .comment .reply-comment:link,
+		.detail .comment .reply-comment:visited,
+		.detail .comment .reply-comment:active
+		{ color:#FF510C; font-style:italic; font-size:10px; }
+		
+		.detail .comment .reply
+		{ background:url(images/structure/bg-reply.gif) no-repeat left bottom; border-left:1px solid #C8CED2; clear:both; height:auto; margin:15px 0 0 0; overflow:hidden; padding:15px 0 0 20px; }
+
+			.detail .comment .reply .image
+			{ padding-bottom:0; }
+				
+			.detail .comment .reply p
+			{ color:#888; font-style:italic; }
+	
+/** Detail > share bar */
+
+.share
+{ background:#D5DDE4; border-bottom:1px solid #BFC2C5; border-top:1px solid #92999F; height:20px; overflow:hidden; padding:0 10px 0 10px; }
+
+	.share .share-social
+	{ float:left; }
+	
+		.share .share-social li
+		{ padding:0 0 0 10px; }
+	
+	.share .share-actions
+	{ float:right; }
+	
+		.share ul li
+		{ color:#818D97; display:block; float:left; font-size:10px; line-height:20px; padding:0 2px; text-transform:uppercase; }
+		
+			.share ul li.icon
+			{ padding:2px 2px 2px 1px; }
+		
+			.share ul li img
+			{ border:none; }
+
+/** Blog Post Detail / Contact Form */	
+
+.contact-form
+{ background:#ECEEF0; border-top:1px solid #E3E3E3; clear:both; padding:15px; }
+
+	.contact-form h2
+	{ border-bottom-color:#9DA9B3; font-size:13px; }
+
+/** Contact form > form */
+
+.contact-form .form
+{ height:1%; overflow:hidden; }
+
+/** Contact form > form > form tags */
+
+	.contact-form .form div
+	{ padding:0 0 10px 0; }
+		
+		.contact-form .form div .text,
+		.contact-form .form div .textarea
+		{ border:1px solid #83919C; border-bottom-color:#B7C0C7; border-right-color:#B7C0C7; width:310px; }
+		
+		.contact-form .form div label
+		{ color:#62707B; display:block; padding:0 0 2px 0; }
+		
+			.contact-form .form div label span
+			{ font-style:italic; }
+
+/** Contact form > form > captcha */
+			
+		.contact-form .form p
+		{ padding:5px 0 15px 0; width:310px; }
+		
+		.contact-form .form .captcha
+		{ float:left; padding:0 15px 0 0; width:102px; }
+			
+			.contact-form .form .captcha img
+			{ border:1px solid #B7C0C7; margin:0 0 7px 0; }
+			
+			.contact-form .form .captcha .text
+			{ width:96px; }
+			
+/** Contact form > form > button */
+		
+		.contact-form .form .button
+		{ float:left; padding:15px; width:169px; }
+
+/** Sidebar */
+		
+/** Sidebar > List Blog */
+
+.sidebar .list-blog
+{ padding-left:15px; }
+
+.sidebar .list-blog .year
+{ padding-left:0;  }
+
+	.sidebar .list-blog .year a:link,
+	.sidebar .list-blog .year a:visited,
+	.sidebar .list-blog .year a:active
+	{ font-size:12px; font-weight:bold; }
+
+	.sidebar .list-blog li
+	{ padding-left:15px; }
+	
+/** Sidebar > Blog Item */
+
+.sidebar .blog-item
+{ padding:15px 0; }
+
+	.sidebar .blog-item .item
+	{ clear:both; height:auto; overflow:hidden; padding:0 0 10px 0; width:240px; }
+
+		.sidebar .blog-item .image
+		{ float:left; margin:0 15px 10px 0; }		
+			
+		.sidebar .blog-item h3
+		{ padding-top:0; }
+		
+		.sidebar .blog-item .no-image
+		{ height:41px; width:73px; }
+		
+		.sidebar .blog-item-members .no-image
+		{ background:url(images/iconography/icon-user-thumb.gif) no-repeat 0 0; height:50px; width:50px; }

@@ -1,0 +1,6 @@
+
+RewriteEngine On
+RewriteBase /content
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} ^(.*/([a-zA-Z0-9-]+)|([a-zA-Z0-9-]+))\.(html|htm)$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/([a-zA-Z0-9-]+)|([a-zA-Z0-9-]+))\.(html|htm)$ ./index.php?content=$1 [E=edir_language:%{ENV:REDIRECT_edir_language},L]

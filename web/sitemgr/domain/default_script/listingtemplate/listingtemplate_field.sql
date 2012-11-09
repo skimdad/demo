@@ -1,0 +1,15 @@
+INSERT INTO `ListingTemplate_Field` (`listingtemplate_id`, `field`, `label`, `fieldvalues`, `instructions`, `required`, `search`, `searchbykeyword`, `searchbyrange`, `show_order`) VALUES
+(1, 'custom_checkbox6', 'LANG_LABEL_TEMPLATE_POOL', '', '', '', '', '', '', 6),
+(1, 'custom_dropdown0', 'LANG_LABEL_TEMPLATE_BEDROOM', '1,2,3,4,5,6', '', '', 'y', '', '', 7),
+(1, 'custom_dropdown1', 'LANG_LABEL_TEMPLATE_BATHROOM', '1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6', '', '', '', '', '', 8),
+(1, 'custom_dropdown2', 'LANG_LABEL_TEMPLATE_TYPE', 'Commercial,Residential', '', '', 'y', '', '', 9),
+(1, 'custom_text0', 'LANG_LABEL_TEMPLATE_PRICE', '', 'Type only numbers, example: 100000', '', '', '', 'y', 10),
+(1, 'custom_text1', 'LANG_LABEL_TEMPLATE_ACRES', '', '', '', '', '', '', 11),
+(1, 'custom_text2', 'LANG_LABEL_TEMPLATE_TYPEBUILTIN', '', '', '', '', '', '', 12),
+(1, 'custom_text3', 'LANG_LABEL_TEMPLATE_SQUARE', '', '', '', '', '', 'y', 13),
+(1, 'custom_checkbox5', 'LANG_LABEL_TEMPLATE_OFFICE', '', '', '', '', '', '', 5),
+(1, 'custom_checkbox4', 'LANG_LABEL_TEMPLATE_LAUNDRYROOM', '', '', '', '', '', '', 4),
+(1, 'custom_checkbox0', 'LANG_LABEL_TEMPLATE_AIRCOND', '', '', '', '', '', '', 0),
+(1, 'custom_checkbox1', 'LANG_LABEL_TEMPLATE_DINING', '', '', '', '', '', '', 1),
+(1, 'custom_checkbox2', 'LANG_LABEL_TEMPLATE_GARAGE', '', '', '', '', '', '', 2),
+(1, 'custom_checkbox3', 'LANG_LABEL_TEMPLATE_GARBAGE', '', '', '', '', '', '', 3);

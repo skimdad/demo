@@ -1,0 +1,7 @@
+
+.noimage{
+	background: #FFF url('../images/bg_noimage.gif') 50% 50% no-repeat; border: 1px solid #EEE;
+}
+
+.noimage:hover
+{ text-decoration: none; }

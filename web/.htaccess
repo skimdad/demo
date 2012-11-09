@@ -1,0 +1,65 @@
+<IfModule mod_security.c>
+	# Turn off mod_security filtering.  SMF is a big boy, it doesn't need its hands held.
+	SecFilterEngine Off
+
+	# The below probably isn't needed, but better safe than sorry.
+	SecFilterScanPOST Off
+</IfModule>
+
+
+# BEGIN Compress text files
+<ifModule mod_deflate.c>
+  <filesMatch "\.(css|js|x?html?|php)$">
+    SetOutputFilter DEFLATE
+  </filesMatch>
+</ifModule>
+# END Compress text files
+
+
+ErrorDocument 400 /errorpage.php
+ErrorDocument 401 /errorpage.php
+ErrorDocument 403 /errorpage.php
+ErrorDocument 404 /errorpage.php
+ErrorDocument 500 /errorpage.php
+
+RewriteEngine On
+
+# To always work lang on url with or without "/" on the end of URL #############
+RewriteCond %{REQUEST_URI} ^/[^\.]+[^/]$
+RewriteRule ^(.*)$ %{REQUEST_URI}/ [R=301,L]
+################################################################################
+
+
+SetEnvIf Request_URI "(/en/)" edir_language=en_us
+SetEnvIf Request_URI "(/pt/)" edir_language=pt_br
+SetEnvIf Request_URI "(/es/)" edir_language=es_es
+SetEnvIf Request_URI "(/fr/)" edir_language=fr_fr
+SetEnvIf Request_URI "(/it/)" edir_language=it_it
+SetEnvIf Request_URI "(/ge/)" edir_language=ge_ge
+SetEnvIf Request_URI "(/tr/)" edir_language=tr_tr
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/sugar|sugar)/(.*)?$ ./sugarCRM.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:edir_language},L]
+
+RewriteCond %{REQUEST_URI} ^(.*/sitemap|sitemap)\.xml$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/sitemap|sitemap)\.xml$ ./sitemap_generate.php [E=edir_language:%{ENV:edir_language},L]
+
+RewriteCond %{REQUEST_URI} ^(.*/sitemapnews|sitemapnews)\.xml$ [NC]
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/sitemapnews|sitemapnews)\.xml$ ./custom/sitemap/indexnews.xml [E=edir_language:%{ENV:edir_language},L]
+
+RewriteRule ^(.*(en|pt|es|fr|it|ge|tr)/search|search)/(.*)?$ ./results.php?url_full=%{REQUEST_URI} [E=edir_language:%{ENV:edir_language},L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*en|pt|es|fr|it|ge|tr)/(.*)?$ $2 [E=edir_language:%{ENV:edir_language},L]
+
+
+## Promotion ######################
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*/promotion|promotion)/?(.*)?$ /deal/$2 [L,R=301]
+###################################
+
+## Coupon #########################
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*/coupon|coupon)/?(.*)?$ /deal/$2 [L,R=301]
+###################################

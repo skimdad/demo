@@ -1,0 +1,237 @@
+
+/*******************************jquery mobile override*************************/
+.ui-body-c, .ui-overlay-c {
+    text-shadow: none;
+}
+
+.ui-field-contain .ui-controlgroup-controls{width: 100%}
+
+
+/*****heade*******/
+
+.ui-header .ui-title{
+    margin: 0;
+    min-height: 40px;
+    line-height: 40px;
+}
+.ui-header .ui-title img{
+    vertical-align: middle;
+}
+
+.ui-header .ui-btn-left{
+    text-align: left;
+}
+
+
+.txt_block{
+    border:1px solid #ccc;
+    background:#eee;
+    font-weight:normal;
+    color:#222;
+    text-shadow:0 1px 0 #fff;
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#f1f1f1));
+    background-image:-webkit-linear-gradient(#fff,#f1f1f1);
+    background-image:-moz-linear-gradient(#fff,#f1f1f1);
+    background-image:-ms-linear-gradient(#fff,#f1f1f1);
+    background-image:-o-linear-gradient(#fff,#f1f1f1);
+    background-image:linear-gradient(#fff,#f1f1f1);
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.mobi_title{
+    border:1px solid #ccc;
+    background:#eee;
+    font-weight:normal;
+    color:#222;
+    text-shadow:0 1px 0 #fff;
+    background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#f1f1f1));
+    background-image:-webkit-linear-gradient(#fff,#f1f1f1);
+    background-image:-moz-linear-gradient(#fff,#f1f1f1);
+    background-image:-ms-linear-gradient(#fff,#f1f1f1);
+    background-image:-o-linear-gradient(#fff,#f1f1f1);
+    background-image:linear-gradient(#fff,#f1f1f1);
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.txt_block.txt_center{
+    text-align: center;
+    
+}
+
+.txt_block.with_margin{
+    margin: 15px 5px;
+}
+
+
+/******************************************************************************/
+
+/*********************extra styles from original site**************************/
+.no-image{
+    background-image: url(icon-user-thumb.gif);
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.company-main-image{
+    display:block;
+    width: 100%;  
+}
+
+.splash_image_container{
+    padding: 0;
+}
+
+.splash_image
+{
+    width: 100%;
+    
+    padding: 0;
+}
+
+.float-wrapper{
+    display: inline-block;
+    widows: 100%;
+}
+/******************************************************************************/
+
+body{background-color:#FFFFFF; !important min-height:100%;}
+#main{background-color:#FFFFFF;background-image:url(http://www.dealcloudusa.com/custom/domain_1/theme/default/schemes/cityguide/images/structure/bg-footer.png);}
+
+.price{background-image:url(lable.png); background-repeat:no-repeat; margin-top:7px; width:71px; height:30px; color:#fff; text-align:center; text-shadow:none; padding:5px; padding-top:7px; padding-left:12px; font-size:16px; float:left}
+
+.review{white-space:normal;color:#222222; text-shadow:none; float:left; margin-top:7px;border-bottom-color:#CCC; border-bottom-width:1px; border-bottom-style:solid; padding-bottom:8px;}
+
+.text-align-center {
+    text-align: center;
+}
+.text-align-right {
+    text-align: right;
+}
+
+.sign_in{display:none}
+.Directory_account{display:block}
+
+
+
+.button-facebook h2 a:link, .button-facebook h2 a:visited, .button-facebook h2 a:active {
+    background: url(button-facebook.gif) no-repeat 0 0;
+    height: 22px;
+    width:185px;
+    float:left;
+    text-align:center;}
+
+
+.button-google h2 a:link, .button-google h2 a:visited, .button-google h2 a:active {
+    background: url(button-google.gif) no-repeat 0 0;
+    height: 22px;
+    width:185px;
+    float:left;
+    text-align:center;}
+
+
+.button-facebook h2 , .button-google h2 {
+    border: 0;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0;
+    margin-left:auto; margin-right:auto; width:190px;}
+
+
+
+/** CSS for non-standard jQuery Mobile styles or Codiqa components **/
+.split-wrapper {
+    width: 100%;
+    min-height: 200px;
+    clear: both;
+}
+@media all and (min-width: 650px) {
+    .content-secondary {
+        text-align: left;
+        float: left;
+        width: 45%;
+        background: none;
+        padding: 1.5em 6% 3em 0;
+        margin: 0;
+    }
+    .content-secondary {
+        background: none;
+        border-top: none;
+    }
+    .content-primary {
+        width: 45%;
+        float: right;
+        margin-right: 1%;
+        padding-right: 1%;
+    }
+    .content-primary ul:first-child {
+        margin-top: 0;
+    }
+    .content-secondary ul.ui-listview, .content-secondary ul.ui-listview-inset {
+        margin: 0;
+    }
+    .content-secondary ul.ui-listview .ui-li-divider, .content-secondary ul.ui-listview .ui-li {
+        border-radius: 0px;
+    }
+    .content-secondary ul.ui-listview .ui-li {
+        border-left: 0;
+        border-right: 0;
+    }
+    .content-secondary h2 {
+        position: absolute;
+        left: -9999px;
+    }
+    .content-secondary .ui-li-divider {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .content-secondary {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+@media all and (min-width: 750px){
+    .content-secondary {
+        width: 34%;
+    }
+    .content-primary {
+        width: 60%;
+        padding-right: 1%;
+    }	
+    .content-secondary ul.ui-listview-inset {
+    }
+
+    @media all and (min-width: 1200px){
+        .content-secondary {
+        width: 30%;
+        padding-right:6%;
+        margin: 0px 0 20px 5%;
+    }
+    .content-secondary ul {
+        margin: 0;
+    }
+    .content-secondary {
+        margin: 0;
+        padding: 0;
+    }
+    .content-primary {
+        width: 50%;
+        margin-right: 5%;
+        padding-right: 3%;
+    }
+    .content-primary {
+        width: 60%;
+    }
+}
+
+
+

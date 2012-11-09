@@ -1,0 +1,61 @@
+/////////////////////////////////////////////////
+// Labels to DataPicker calendar
+/////////////////////////////////////////////////
+var EDIR_MONTH_ARRAY = new Array();
+EDIR_MONTH_ARRAY[0] = "Gennaio";
+EDIR_MONTH_ARRAY[1] = "Febbraio";
+EDIR_MONTH_ARRAY[2] = "Marzo";
+EDIR_MONTH_ARRAY[3] = "Aprile";
+EDIR_MONTH_ARRAY[4] = "Maggio";
+EDIR_MONTH_ARRAY[5] = "Giugno";
+EDIR_MONTH_ARRAY[6] = "Luglio";
+EDIR_MONTH_ARRAY[7] = "Agosto";
+EDIR_MONTH_ARRAY[8] = "Settembre";
+EDIR_MONTH_ARRAY[9] = "Ottobre";
+EDIR_MONTH_ARRAY[10] = "Novembre";
+EDIR_MONTH_ARRAY[11] = "Dicembre";
+
+var EDIR_MONTH_ABBREVIATION = new Array();
+EDIR_MONTH_ABBREVIATION[0]= "Gen";
+EDIR_MONTH_ABBREVIATION[1]= "Feb";
+EDIR_MONTH_ABBREVIATION[2]= "Mar";
+EDIR_MONTH_ABBREVIATION[3]= "Apr";
+EDIR_MONTH_ABBREVIATION[4]= "Mag";
+EDIR_MONTH_ABBREVIATION[5]= "Giu";
+EDIR_MONTH_ABBREVIATION[6]= "Lug";
+EDIR_MONTH_ABBREVIATION[7]= "Ago";
+EDIR_MONTH_ABBREVIATION[8]= "Set";
+EDIR_MONTH_ABBREVIATION[9]= "Ott";
+EDIR_MONTH_ABBREVIATION[10]= "Nov";
+EDIR_MONTH_ABBREVIATION[11]= "Dic";
+
+var EDIR_DAYNAMES_ARRAY = new Array();
+EDIR_DAYNAMES_ARRAY[0] = "Domenica";
+EDIR_DAYNAMES_ARRAY[1] = "Luned&igrave;";
+EDIR_DAYNAMES_ARRAY[2] = "Marted&igrave;";
+EDIR_DAYNAMES_ARRAY[3] = "Mercoled&igrave;";
+EDIR_DAYNAMES_ARRAY[4] = "Gioved&igrave;";
+EDIR_DAYNAMES_ARRAY[5] = "Venerd&igrave;";
+EDIR_DAYNAMES_ARRAY[6] = "Sabato";
+
+
+var EDIR_DAYNAMES_ABBREVIATION = new Array();
+EDIR_DAYNAMES_ABBREVIATION[0] = "Dom";
+EDIR_DAYNAMES_ABBREVIATION[1] = "Lun";
+EDIR_DAYNAMES_ABBREVIATION[2] = "Mar";
+EDIR_DAYNAMES_ABBREVIATION[3] = "Mer";
+EDIR_DAYNAMES_ABBREVIATION[4] = "Gio";
+EDIR_DAYNAMES_ABBREVIATION[5] = "Ven";
+EDIR_DAYNAMES_ABBREVIATION[6] = "Sab";
+
+
+
+var EDIR_DAYNAMES_MIN = new Array();
+EDIR_DAYNAMES_MIN[0] = "Do";
+EDIR_DAYNAMES_MIN[1] = "Lu";
+EDIR_DAYNAMES_MIN[2] = "Ma";
+EDIR_DAYNAMES_MIN[3] = "Me";
+EDIR_DAYNAMES_MIN[4] = "Gi";
+EDIR_DAYNAMES_MIN[5] = "Ve";
+EDIR_DAYNAMES_MIN[6] = "Sa";
+/////////////////////////////////////////////////

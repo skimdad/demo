@@ -1,0 +1,473 @@
+/**
+* eDirectory - Detail Page ( Modules )
+*
+* @package			layout
+* @filesource		detail.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+/** Detail Misc > Structure */
+
+.content-main
+{ border-top:none; padding:0; }
+	
+/** Detail */	
+
+.detail
+{ padding:15px 0 30px 0; }
+
+/** Detail > share bar */
+
+.share
+{ background:url(images/structure/bg-content-share.gif) repeat-x 0 0; height:37px; margin:15px 0; overflow:hidden; padding:0 10px 0 10px; }
+
+	.share .share-social
+	{ float:left; }
+	
+		.share .share-social li
+		{ padding:0 0 0 10px; }
+	
+	.share .share-actions
+	{ float:right; }
+	
+		.share ul li
+		{ color:#646464; display:block; float:left; font-size:13px; line-height:37px; padding:0 2px; text-transform:lowercase; }
+		
+			.share ul li a, .share ul li a:visited, .share ul li a:active
+			{ color:#646464; }
+		
+			.share ul li.icon
+			{ padding:8px 8px 2px 1px; }
+		
+			.share ul li img
+			{ border:none; }
+			
+			.share ul li img
+			{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+				
+/** Detail > columns */
+
+.columns
+{ height:1%; margin-bottom:15px; overflow:hidden; padding:0 0 30px 0; }	
+	
+	.columns .left,
+	.columns .right
+	{ width:320px; }
+	
+	.columns .left-column-full
+	{ margin:0 30px 20px 0; }
+	
+/** Detail > items > titles */
+
+.detail h1
+{ color:#0072BC; float:left; font-size:26px; font-weight:bold; line-height:32px; padding:0 0 15px 0; text-transform:uppercase; }
+
+.detail h2
+{ font-size:13px; margin-bottom:6px; margin-top:15px; padding-left:0; }
+
+p.long
+{ background:url(images/structure/bg-detail-desc.png) repeat-x 0 bottom; font-size:13px; line-height:20px; margin-bottom:5px; padding-bottom:10px; }
+
+/** Detail > items > list category */
+
+.detail .list-category
+{ padding-left:0; }
+
+/** Detail > items > badges */
+
+.detail .badges
+{ height:1%; overflow:hidden; }
+
+	.detail .badges img
+	{ float:left; margin:0 10px 0 0; }
+
+/** Detail > items > content box */
+
+.detail .content-box
+{ clear:both; display:block; padding:0 0 15px 0; }
+
+/** Detail > items > info */
+
+	.detail address
+	{ color:#62707B; line-height:16px; padding:0 0 10px 0; }
+	
+		.detail address span
+		{ display:block; }
+		
+	.detail strong
+	{ color:#646464; }
+	
+	.detail .claim
+	{ padding:10px 0 0 0; }
+	
+		.detail .claim a:link,
+		.detail .claim a:visited,
+		.detail .claim a:active
+		{ color:#FF510C; font-weight:bold; }
+		
+/** Detail > items > contact button */
+
+.detail .button-contact
+{ margin:15px auto 30px auto; width:230px; }
+					
+/** Detail > items > image */
+
+.detail .image-shadow
+{ background:url(images/structure/bg-detail-shadow.png) no-repeat 0 bottom; padding-bottom:16px; }
+
+	.detail .deal .image-shadow
+	{ display:inline-block; }
+
+	.detail .image-shadow p.image-caption
+	{ background:url(images/structure/bg-black-opacity-65.png) repeat 0 0; bottom:0; color:#AAA; line-height:18px; padding: 5px 10px; position:absolute; width:630px; }
+
+.detail .image
+{ position:relative; }
+
+.detail .image, .detail .video
+{ background:url(images/structure/bg-image-border.png) no-repeat 0 0; height:367px; padding:10px; width:650px; }
+	
+/** Detail > items > no image difference */
+
+.detail .no-image
+{ border:none; height:367px; width:650px; }
+
+.detail .no-image
+{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+	
+/** Detail > items > gallery */
+
+.detail .gallery
+{ background:none; padding:0 0 10px 0; }
+
+	.detail .gallery ul
+	{ height:1%; overflow:hidden; }
+	
+		.detail .gallery ul li
+		{ background:url(images/structure/bg-detail-small-shadow.png) no-repeat 0 bottom; float:left; margin:0 7px; padding:0 0 5px 0; }
+			
+		.detail .gallery .caption
+		{ padding:10px 0 0 0; line-height:14px; }
+		
+		.detail .gallery ul li a img
+		{ border:5px solid #FFF; }
+		
+		.detail .gallery ul li a img
+		{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+		
+	.detail .detail-tabs
+	{ height:20px; }
+	
+		.detail .detail-tabs li
+		{ background:#FFF; bottom:-1px; border:1px solid #E5E5E5; border-bottom:none; float:right; height:18px; line-height:18px; margin-right:3px; padding:0 10px; position:relative; width:auto; z-index:0; } 
+		
+		.detail .detail-tabs li
+		{ -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0; border-radius:5px 5px 0 0; }
+		
+			.detail .detail-tabs li.tab_media_active
+			{ height:19px; z-index:9999; }
+		
+		.detail .detail-tabs a, .detail .detail-tabs a:visited, .detail .detail-tabs a:active
+		{ color:#646464; }
+		
+		.detail .detail-tabs .tab_media_active a, .detail .detail-tabs .tab_media_active a:visited, .detail .detail-tabs .tab_media_active a:active
+		{ color:#ED2E9F; }
+		
+/** Detail > Detail Deal differences > deal tag */
+
+.detail .deal 
+{ position:relative; }
+	
+	.detail .deal .deal-tag
+	{ background:url(images/iconography/icon-tag-detail-deal.png) no-repeat 0 0; height:76px; width:127px; }
+	
+		.detail .deal .deal-tag span
+		{ display:block; text-align:center; }
+		
+		.detail .deal .deal-tag .cents
+		{ display:inline; font-size:16px; }
+		
+		.detail .deal .deal-tag .price
+		{ color:#FFF; font-size:26px; height:51px; line-height:51px; padding:0 0 0 25px; }
+		
+		.detail .deal .deal-tag .discount
+		{ color:#FFF; display:block; font-size:12px; font-weight:bold; height:20px; line-height:20px; padding:0 0 0 20px; }
+		
+	.detail .deal .deal-tag-sold-out
+	{ background:url(images/iconography/icon-tag-detail-deal-sold-out.png) no-repeat 0 0; }
+	
+		.detail .deal .deal-tag-sold-out .price
+		{ font-size:15px; font-weight:bold; text-transform:uppercase; }
+		
+/** Detail > Detail Deal differences > image */
+
+	.detail .deal .image
+	{ float:left; }
+	
+		.detail .deal .image .no-link
+		{ border-color:#83939F !important; }
+	
+/** Detail > Detail Deal differences > info */
+
+	.detail .deal .info
+	{ background:#E7E8E8; height:1%; float:left; overflow:hidden; width:222px; }
+	
+/** Detail > Detail Deal differences > info > counter */
+
+	.detail .deal .counter
+	{ background:#D3D7D9; border-bottom:1px solid #B9BABA; height:40px; overflow:hidden; padding:12px 15px 13px 15px; width:192px; }
+	
+		.detail .deal .counter li.countdown_section
+		{ float:left; text-align:center; width:64px; }
+			
+			.detail .deal .counter .countdown_section span
+			{ color:#061826; display:block; font-size:26px; height:26px; line-height:26px; }
+			
+			.detail .deal .counter .countdown_section strong
+			{ color:#62707B; display:block; font-size:10px; font-weight:normal; line-height:10px; text-transform:uppercase; }
+			
+	.detail .deal .deal-price
+	{ position:absolute; right:0; top:10px; z-index:3; }
+		
+	.detail .deal .deal-tag-sold-out
+	{ background:url(images/iconography/icon-tag-detail-deal-sold-out.png) no-repeat 0 0 !important; }
+	
+		.detail .deal .deal-tag-sold-out .price
+		{ color:#FFF; font-size:16px; font-weight:bold; text-transform:uppercase; }
+			
+/** Detail > Detail Deal differences > info > actions */
+
+	.detail .deal .action
+	{ border-top:1px solid #F5F6F6; padding:12px 15px; }
+	
+		.detail .deal .action p
+		{ font-size:11px; }
+		
+/** Detail > Detail Deal differences > info > actions > buttons */
+
+	.detail .deal .button
+	{ background:none; padding:10px 0 0 0; }
+	
+/* Content misc > Buttons > Button Facebook */
+	
+	.detail .deal .button-facebook
+ 	{ padding:10px 0 0 0; }
+	
+		.detail .deal .button-facebook h2
+		{ margin:0; }
+		
+/* Content misc > Buttons > Button redeem */
+
+	.detail .deal .button-redeem h2
+	{ border:1px solid #273F53 !important; height:20px; margin:0 !important; }
+	
+		.detail .deal .button-redeem h2 a:link,
+		.detail .deal .button-redeem h2 a:visited,
+		.detail .deal .button-redeem h2 a:active
+		{ background:url(images/structure/bg-button-action-contact.gif) repeat-x 0 0; border:1px solid #8CA0B2; font-size:11px; height:18px; line-height:18px; }
+		
+			.detail .deal .button-redeem h2 a:hover
+			{ border-color:#C6CED4; }
+			
+/* Content misc > Buttons > Redeem option */
+	
+	.detail .deal .redeem-option
+	{ font-size:10px !important; font-style:italic; line-height:12px; padding:2px 0 0 0; }
+		
+/** Detail > items > gallery > no-image */
+		
+	.detail .gallery .no-image
+	{ border:5px solid #FFF; height:74px; width:130px; }
+	
+	.detail .gallery .no-image
+	{ -moz-background-size:80%; -webkit-background-size:80%; background-size:80%; }
+		
+/** Detail > items > extra fields */
+
+	.detail .extra-fields p
+	{ background:url(images/iconography/bullet-location.gif) no-repeat 10px 10px; padding:5px 0 10px 25px; }
+	
+/* Content misc > Buttons > Button Facebook */
+	
+	.detail .deal .button-facebook
+ 	{ padding:10px 0 0 0; }
+	
+		.detail .deal .button-facebook h2
+		{ margin:0; }
+		
+/* Content misc > Buttons > Button redeem */
+
+	.detail .deal .button-redeem h2
+	{ border:1px solid #273F53 !important; height:20px; margin:0 !important; }
+	
+		.detail .deal .button-redeem h2 a:link,
+		.detail .deal .button-redeem h2 a:visited,
+		.detail .deal .button-redeem h2 a:active
+		{ background:url(images/structure/bg-button-action-contact.gif) repeat-x 0 0; border:1px solid #8CA0B2; font-size:11px; height:18px; line-height:18px; }
+		
+			.detail .deal .button-redeem h2 a:hover
+			{ border-color:#C6CED4; }
+			
+/* Content misc > Buttons > Redeem option */
+	
+	.detail .deal .redeem-option
+	{ font-size:10px !important; font-style:italic; line-height:12px; padding:2px 0 0 0; }
+	
+/** Sidebar */
+
+/** Sidebar > google map definitions */
+
+.sidebar .map
+{ border:none; height:327px; margin:0 0 15px 0; width:285px; }
+
+.sidebar .map-control
+{ height:22px; text-align:right; }
+
+	.sidebar .map-control a
+	{ display:block; font-size:10px; padding:7px 0 0 0; }
+	
+.sidebar .map-info-view h1
+{ font-size:13px; font-weight:bold; }
+
+.sidebar .map-info-view img
+{ border:3px solid #D0D5D8; float:left; margin:0 10px 10px 0; }
+	
+/** Featured Items */
+
+/** Featured > featured listing */
+
+	.sidebar .featured-listing .featured-item
+	{ width:240px; }
+	
+		.sidebar .featured-listing .featured-item .image
+		{ float:left; margin:0 15px 10px 0; }
+		
+		.sidebar .featured-listing .featured-item .title
+		{ padding:0 0 10px 0; }		
+		
+		.sidebar .featured-listing .featured-item address
+		{ clear:both; color:#636363; }
+		
+			.sidebar .featured-listing .featured-item address span
+			{ display:block; }
+		
+		.sidebar .featured-listing .featured-item strong
+		{ color:#636363; }
+	
+/** Sidebar > featured listing > no image difference */
+
+	.sidebar .featured-listing .no-image
+	{ height:41px; width:73px; }
+	
+	.sidebar .featured-listing .no-image
+	{ -moz-background-size:80%; -webkit-background-size:80%; background-size:80%; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; border:none; }
+
+/** Sidebar > featured reviews */
+
+.sidebar h2
+{ color:#ED2E9F; margin-left:0; }
+
+.sidebar h2 .view-more:link, .sidebar h2 .view-more:visited, .sidebar h2 .view-more:active
+{ background:none; color:#ED2E9F; float:right; font-family:"Futura", Arial, Helvetica; font-size:13px; font-weight:normal; margin:0; }
+
+.sidebar h2 .rate-it
+{ color:#FF510C; font-weight:bold; font-style:normal; padding-top:8px; }
+
+.sidebar .featured-review
+{ margin-left:0; }
+
+.sidebar .rate-it-first:link,
+.sidebar .rate-it-first:visited,
+.sidebar .rate-it-first:active
+{ background:#F4E4C4; color:#FF510C; display:block; font-weight:bold; padding:10px; text-align:center; }
+
+	.sidebar .rate-it-first
+	{ -moz-border-radius:6px; -webkit-border-radius:6px; border-radius:6px; }
+
+/** Level Preview */
+
+.level-preview .detail .deal .action
+{ padding:9px 15px 8px; }
+
+/** Detail Sidebar Info */
+
+.detail-info-shadow
+{ background:url(images/structure/bg-detail-info-shadow.png) no-repeat 0 bottom; margin-bottom:15px; padding-bottom:6px; width:285px; }
+
+.detail-info-shadow, .detail-border
+{ -moz-border-radius:0 6px 6px 0; -webkit-border-radius:0 6px 6px 0; border-radius:0 6px 6px 0; }
+
+	.detail-border
+	{ background:#EEE; border:1px solid #E5E5E5; padding:10px; }
+	
+		.detail-info
+		{ background:url(images/structure/bg-detail-info.gif) repeat-y 0 0; padding:10px 15px; text-align:center; }
+		
+			.detail-info p
+			{ color:#646464; font-family:Verdana, Geneva, sans-serif; font-size:13px; line-height:22px; text-align:center; }
+			
+			.detail-info .action p
+			{ color:#636363; font-family:Verdana, Geneva, sans-serif; font-size:14px; font-weight:normal; line-height:24px; text-align:center; }
+			
+				.detail-info .action .facebookConnect .redeem-option
+				{ font-size:12px; font-style:italic; }
+				
+				.detail-info .action .facebookConnect .button h2
+				{ margin:25px 0 5px; }
+			
+			.detail-info .action strong
+			{ font-weight:normal; }
+			
+			.detail-info .counter
+			{ background:url(images/structure/bg-detail-split.gif) repeat-x 0 bottom; margin:15px 0; padding-bottom:15px; }
+			
+			.detail-info .counter-title
+			{ color:#0072BC; font-family:Arial, Helvetica, sans-serif; font-size:20px; text-transform:uppercase; }
+			
+				.detail-info .counter-title img
+				{ display:inline; position:relative; top:2px; }
+			
+				.detail-info .counter li.countdown_section
+				{ display:inline; margin-right:8px; text-align:center; }
+				
+					.detail-info .counter li.countdown_section span
+					{ color:#636363; font-size:17px; margin-right:3px; }
+					
+					.detail-info .counter li.countdown_section strong
+					{ color:#636363; font-size:13px; font-weight:normal; }
+			
+/** Deal Detail */
+
+.detail-deal h2 
+{ color:#ED2E9F; background:url(images/structure/bg-detail-desc.png) repeat-x 0 bottom; border:none; font-size:21px; line-height:43px; margin-left:0; }
+
+.detail-deal p
+{ font-size:13px; line-height:20px; }
+
+.sidebar .featured-listing .featured-item .title p a
+{ color:#111; }
+
+.sidebar .featured-listing .featured-item p a, .sidebar .featured-listing .featured-item p a:active, .sidebar .featured-listing .featured-item a:visited
+{ color:#0072BC; text-transform:none; }
+
+.sidebar .featured-listing .featured-item a img
+{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; border:none; }
+
+.sidebar .featured-deal .left
+{ background:url(images/iconography/icon-tag-results.png) repeat-x 0 top; position:absolute; right:0; top:21px; }
+
+.sidebar .featured-deal .featured-item
+{ border:none; position:relative; }
+
+	.sidebar .featured-deal .image
+	{ border:1px solid #CCC; display:block; }
+
+	.sidebar .featured-deal .image img
+	{ border:10px solid #FFF; }
+
+	.sidebar .featured-deal .image img
+	{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }

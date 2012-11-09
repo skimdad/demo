@@ -1,0 +1,64 @@
+/**
+* eDirectory - Profile Pages
+*
+* @package			layout
+* @filesource		profile.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 10, 2011
+*			
+*/
+
+/** Detail Misc > Structure */
+
+.content-main .no-image
+{ background:#FFF url(images/iconography/icon-user-thumb.gif) no-repeat 0 0; }
+
+/** Items Summary */
+	
+	.item-summary .delete
+	{ background:#FDDEDA; border-top:1px solid #8A110C; color:#8A110C; }
+
+/** Tab navigation */
+
+	.profile-tabs li
+	{ background:#EEE; border-top:2px solid #E6E6E6; }
+	
+		.profile-tabs li a:link, .profile-tabs li a:visited, .profile-tabs li a:active
+		{ color:#888; }
+		
+		.profile-tabs li.active
+		{ background:#3D6F88; border-top:2px solid #D4CCBF; }
+		
+			.profile-tabs li.active a:link, .profile-tabs li.active a:visited, .profile-tabs li.active a:active
+			{ color:#FFF; }
+			
+/** Members Table */
+
+table.standard-table th, table.standard-table td
+{ color:#62707B; }
+
+/* User info > misc */
+
+	.user-info img
+	{ border:3px solid #D0D5D8; }
+	
+	.user-info p span
+	{ color:#666; }
+
+/* User info > No image */
+
+	.user-info .no-image
+	{ background:#E7E8E8 url(images/iconography/icon-user.gif) no-repeat center; }
+
+/* User info > Twitter differences */ 
+	
+	.user-info .last-tweets .loading
+	{ background:url(images/iconography/icon-loading-content.gif) no-repeat center; }
+	
+	.user-info .last-tweets ul li a
+	{ color:#999; }
+	
+	.user-info .last-tweets ul li span a
+	{ color:#004276; }

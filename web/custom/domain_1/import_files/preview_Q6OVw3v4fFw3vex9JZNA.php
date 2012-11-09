@@ -1,0 +1,7 @@
+<?
+	header("Content-Type: text/csv; charset=UTF-8", TRUE);
+
+	echo "Account Username,Account Password,Account Contact First Name,Account Contact Last Name,Account Contact Company,Account Contact Address,Account Contact Address2,Account Contact Country,Account Contact State,Account Contact City,Account Contact Postal Code,Account Contact Phone,Account Contact Fax,Account Contact Email,Account Contact URL,Legacy ID,Listing ID,Listing Title,Listing Email,Listing URL,Listing Address,Listing Address2,Listing Country,Listing Country Abbreviation,Listing Region,Listing Region Abbreviation,Listing State,Listing State Abbreviation,Listing City,Listing City Abbreviation,Listing Neighborhood,Listing Neighborhood Abbreviation,Listing Postal Code,Listing Latitude,Listing Longitude,Listing Phone,Listing Fax,Listing Short Description,Listing Long Description,Listing Keywords,Updated Date,Listing Renewal Date,Listing Status,Listing Level,Listing Category 1,Listing Category 2,Listing Category 3,Listing Category 4,Listing Category 5,Listing Template\n";
+	echo "russ@dealcloudusa.com,M@rket1ng,,,A and J Tax Inc,1225 Long Pond Rd,,United States,New York,Rochester,14626,(585) 227-4626,,russ@dealcloudusa.com,,,,A and J Tax Inc,,,1225 Long Pond Rd,,United States,USA,,,New York,NY,Rochester,,,,14626,,,(585) 227-4626,,Accounting and CPA Services,\"Accounting and CPA Services - Payroll, Tax, Corporate, Personal\",CPA||Rochester||Accountant|Payroll||Tax ||Local,,6/29/2013,Active,bronze,,,,,,\n";
+	echo ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,\n";
+?>

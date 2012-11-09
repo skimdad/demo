@@ -1,0 +1,288 @@
+/**
+* eDirectory - Blog Module
+*
+* @package			layout
+* @filesource		blog.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9
+* @since			October, 17, 2011
+*			
+*/
+
+/** Blog Misc > Structure */
+
+.content
+{ padding-top:10px; }
+
+/** Blog Post Summary */
+
+.summary
+{ background:url(images/structure/bg-detail-desc.png) repeat-x 0 bottom; color:#777; height:auto; margin-bottom:10px; overflow:hidden; padding:0 0 30px 0; }
+
+	.summary h2
+	{ background:none; border:none; font-family:"Futura", Arial, Helvetica; font-size:24px; line-height:26px; margin-bottom:0 !important; padding:10px 0 2px 0; text-transform:uppercase; }
+	
+		.summary h2 a:link,
+		.summary h2 a:visited,
+		.summary h2 a:active
+		{ color:#0072BC; font-family:"Futura", Arial, Helvetica; } 
+		
+	.summary .desc
+	{ font-size:11px; padding:0 0 20px 0; }
+
+	.summary .image
+	{ background:url(images/structure/bg-deal-featured-shadow.png) no-repeat 0 bottom; float:left; padding:5px 20px 15px 0; }
+	
+		.summary .image a
+		{ border:1px solid #CCC; display:block; }
+	
+		.summary .image a img, .summary .no-image
+		{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; border:10px solid #FFF !important; }
+	
+	.summary .no-image
+	{ height:179px; width:318px; }
+		
+	.summary .actions
+	{ background:url(images/structure/bg-detail-desc.png) repeat-x 0 bottom; color:#62707B; font-size:10px; height:20px; line-height:20px; overflow:hidden; padding:0 5px; width:308px; }
+	
+		.summary .actions a:link,
+		.summary .actions a:visited,
+		.summary .actions a:active
+		{ color:#636363; font-size:10px; line-height:20px; text-transform:uppercase; }
+		
+		.summary .actions .right
+		{ color:#000; }
+	
+	.summary a.read-more:link,
+	.summary a.read-more:visited,
+	.summary a.read-more:active
+	{ display:block; padding:5px 0 0 0; }
+	
+	.summary p, .summary li, .summary span
+	{ color:#636363; font-family:Verdana, Geneva, sans-serif; font-size:12px; line-height:20px; }
+	
+	.summary ul, .summary ol
+	{ padding:10px 0 10px 40px; }
+	
+	.summary ul
+	{ list-style:disc outside none; }
+	
+	.summary ol
+	{ list-style:decimal outside none; }
+	
+/** Blog Post Summary > Results info */
+
+.search-info
+{ background:none; border-bottom:none; font-size:12px; margin-bottom:0; padding:10px 0 0 0; text-transform:none; }
+
+	.content h2.search-info
+	{ background:none; color:#636363; font-family:Arial, Helvetica, sans-serif; padding:0; }
+
+	.search-info strong
+	{ color:#111; font-size:14px; font-weight:normal; }
+
+/** Blog Post Detail ( differences from summary view ) */
+
+.detail 
+{ padding:15px 0 30px 0; }
+
+/** Detail > items > misc */
+	
+	.detail h1
+	{ color:#0072BC; font-size:26px; font-weight:bold; line-height:32px; padding:0 0 15px 0; text-transform:uppercase; }
+	
+	.detail h2
+	{ background:url(images/structure/bg-detail-desc.png) repeat-x 0 bottom; color: #EC008C; font-size: 21px; line-height: 43px; margin-bottom:6px; margin-top:15px; }
+	
+	.detail .info
+	{ padding:0 0 15px 0; }
+	
+	.detail .image
+	{ float:left; padding:0 30px 20px 0; }
+
+	.detail .no-image
+	{ height:367px; width:650px; }
+	
+	.detail .no-image
+	{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; border:none; }
+
+/** Detail > comments */
+
+	.detail .comment
+	{ border-top:1px solid #E6E8E9; height:auto; overflow:hidden; padding:15px 0; }
+	
+		.detail .first
+		{ border:none; padding-top:10px; }
+	
+		.detail .comment .image
+		{ background:none; height:auto; padding:0; width:auto; }
+		
+			.detail .comment .image a img, .detail .comment .no-image
+			{ border:none; }
+		
+		.detail .comment .no-image
+		{ background:#FFF url(images/iconography/icon-user-thumb.gif) no-repeat 0 0; height:50px; width:50px; }
+		
+		.detail .comment p
+		{ font-size:12px; margin:0 0 2px 0; padding:0 0 0 95px; }
+		
+			.detail .comment p a, .detail .comment p a:visited, .detail .comment p a:active
+			{ color:#0072BC; }
+		
+		.detail .comment .reply-comment:link,
+		.detail .comment .reply-comment:visited,
+		.detail .comment .reply-comment:active
+		{ color:#FF510C; font-style:italic; font-size:10px; }
+		
+		.detail .comment .reply
+		{ background:url(images/structure/bg-reply.gif) no-repeat left bottom; border-left:1px solid #C8CED2; clear:both; height:auto; margin:15px 0 0 0; overflow:hidden; padding:15px 0 0 20px; }
+
+			.detail .comment .reply .image
+			{ padding-bottom:0; }
+				
+			.detail .comment .reply p
+			{ color:#888; font-style:italic; }
+	
+/** Detail > share bar */
+			
+.share
+{ background:url(images/structure/bg-content-share.gif) repeat-x 0 0; height:37px; margin:15px 0; overflow:hidden; padding:0 10px 0 10px; }
+
+	.share .share-social
+	{ float:left; }
+	
+		.share .share-social li
+		{ padding:0 0 0 10px; }
+	
+	.share .share-actions
+	{ float:right; }
+	
+		.share ul li
+		{ color:#646464; display:block; float:left; font-size:13px; line-height:37px; padding:0 2px; text-transform:lowercase; }
+		
+			.share ul li a, .share ul li a:visited, .share ul li a:active
+			{ color:#646464; }
+		
+			.share ul li.icon
+			{ padding:8px 8px 2px 1px; }
+		
+			.share ul li img
+			{ border:none; }
+			
+			.share ul li img
+			{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+
+/** Blog Post Detail / Contact Form */	
+
+.contact-form
+{ background:none; border-top:1px solid #E3E3E3; clear:both; padding:0 0 15px; }
+
+	.contact-form h2
+	{ background:url(images/structure/bg-detail-desc.png) repeat-x 0 bottom; color: #EC008C; font-size: 21px; line-height: 43px; margin-bottom:10px; }
+
+/** Contact form > form */
+
+.contact-form .form
+{ height:1%; overflow:hidden; }
+
+/** Contact form > form > form tags */
+
+	.contact-form .form div
+	{ padding:0 0 10px 0; }
+		
+		.contact-form .form div .text,
+		.contact-form .form div .textarea
+		{ border:1px solid #83919C; border-bottom-color:#B7C0C7; border-right-color:#B7C0C7; width:310px; }
+		
+		.contact-form .form div label
+		{ color:#62707B; display:block; padding:0 0 2px 0; }
+		
+			.contact-form .form div label span
+			{ font-style:italic; }
+
+/** Contact form > form > captcha */
+			
+		.contact-form .form p
+		{ padding:5px 0 15px 0; width:310px; }
+		
+		.contact-form .form .captcha
+		{ float:left; padding:0 15px 0 0; width:102px; }
+			
+			.contact-form .form .captcha img
+			{ border:1px solid #B7C0C7; margin:0 0 7px 0; }
+			
+			.contact-form .form .captcha .text
+			{ width:96px; }
+			
+/** Contact form > form > button */
+		
+		.contact-form .form .button
+		{ float:left; padding:15px; width:169px; }
+
+/** Sidebar */
+		
+/** Sidebar > List Blog */
+
+.sidebar h2
+{ margin-left:0; }
+
+.sidebar .list-blog .year
+{ background:url(images/iconography/bullet-location.gif) no-repeat 10px 50%; padding:4px 4px 4px 25px; }
+
+	.sidebar .list-blog .year a:link,
+	.sidebar .list-blog .year a:visited,
+	.sidebar .list-blog .year a:active
+	{ font-size:12px; }
+
+	.sidebar .list-blog li
+	{ background:none; padding-left:35px; }
+	
+/** Sidebar > Blog Item */
+
+.sidebar .blog-item
+{ padding:15px 0; }
+
+	.sidebar .blog-item .item
+	{ clear:both; height:auto; overflow:hidden; padding:0 0 10px 0; width:240px; }
+
+		.sidebar .blog-item .image
+		{ float:left; margin:0 15px 10px 0; }		
+			
+		.sidebar .blog-item h3
+		{ padding-top:0; }
+		
+			.sidebar .blog-item .item h3 a, .sidebar .blog-item .item h3 a:visited, .sidebar .blog-item .item h3 a:active
+			{ color:#000; }
+		
+		.sidebar .blog-item .no-image
+		{ border:none; height:41px; width:73px; }
+		
+		.sidebar .blog-item-members .no-image
+		{ background:#FFF url(images/iconography/icon-user-thumb.gif) no-repeat center center; border:none; height:86px; width:86px; }
+		
+		.sidebar .blog-item .image img
+		{ border:none; }
+		
+		.sidebar .blog-item .item a, .sidebar .blog-item .item a:visited, .sidebar .blog-item .item a:active
+		{ color:#0072BC; }
+		
+/** Blog Detail Image */
+
+.detail .image-shadow
+{ background:url(images/structure/bg-detail-shadow.png) no-repeat 0 bottom; display:inline-block; padding-bottom:16px; }
+
+	.detail .deal .image-shadow
+	{ display:inline-block; }
+
+	.detail .image-shadow p.image-caption
+	{ background:url(images/structure/bg-opacity-white.png) repeat 0 0; bottom:8px; color:#000; line-height:18px; padding: 5px 10px; position:absolute; width:630px; }
+	
+		.detail .image-shadow p.image-caption strong
+		{ color:#646464; }
+
+.detail .image
+{ position:relative; }
+
+.detail .image, .detail .video
+{ background:url(images/structure/bg-image-border.png) no-repeat 0 0; height:367px; padding:10px; width:650px; }

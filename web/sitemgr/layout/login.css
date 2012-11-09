@@ -1,0 +1,9 @@
+
+body
+{ background: url(../images/design/bg_login.gif) repeat 0 0; }
+
+div.wrapper div.header .header-backdrop 
+{ border-bottom: 1px solid #424242; }
+
+div.wrapper div.header .header-nav
+{ background: none; }

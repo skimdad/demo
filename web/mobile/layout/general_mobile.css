@@ -1,0 +1,137 @@
+/**
+* eDirectory - Mobile Style Definitions
+*
+* @package		layout-mobile
+* @author			Arca Solutions
+* @copyright	Copyright (c) 2009, Arca Solutions Inc.
+*/
+
+/** Structure */
+
+* { margin: 0; padding: 0; border: 0; text-decoration: none; }
+
+body { background-color: #EEE; }
+
+br.clear { clear: both; line-height: 0; height: 0; }
+
+.warning { border-bottom: 1px solid #BBB; color: #464646; font: normal x-small/normal sans-serif; padding: 10px; text-align: center; }
+
+.wrapper p { font: normal x-small sans-serif; color: #333; padding: 5px 5px 5px 5px; }
+
+a, a:visited { color: #069; }
+
+h1 { color: #000; font: bold small/normal sans-serif; padding: 2px 5px 2px 5px; }
+
+h1 span { color: #069; }
+
+span.bold { font-weight: bold; }
+
+/** Structure >> Header */
+
+.header { background: #D6D6D6 url(../../images/bg_header_mobile.gif) repeat-x 0 0; padding-bottom: 5px; text-align: center; }
+
+	.header img { padding-top: 5px; }
+
+/** Structure >> Navbar */
+
+ul.navbar { border-top: 1px solid #ADB1B7; list-style: none; margin: 7px 0 40px 0; }
+
+ul.navbar li { display: inline; }
+
+ul.navbar li a, ul.navbar li a:visited { background: #CBCBCB url(../../images/bg_navbar_mobile.gif) repeat-x 0 0; border-bottom: 1px solid #ADB1B7; color: #000; display: block; font: normal 14px sans-serif; height: 24px; padding: 5px 0 5px 10px; }
+
+ul.navbar li a:hover { color: #666; }
+
+ul.navbar li a img { position: relative; top: 0; }
+
+ul.navbar li a p { bottom: 7px; color: #000; display: inline; font-size: 14px; position: relative; }
+
+/** Structure >> Breadcrumb */
+
+div.breadcrumb { background: #CCC; border-top: 1px solid #B4B4B4; color: #666; font: bold x-small/normal sans-serif; padding: 6px 0 6px 5px; }
+
+div.breadcrumb a { color: #272727; font-weight: normal; }
+
+div.breadcrumb a:hover { text-decoration: underline; }
+
+/** Structure >> Search */
+
+div.search { margin: 5px; padding: 5px 10px 5px 10px; text-align: left; }
+
+.header div.search { margin: 5px auto; width: 67%; }
+
+.content div.search { background: #FFF; margin: 0; padding: 15px 0 15px 35px; }
+
+	.content div.search input { width: 80%; }
+
+div.search p { color: #003365; font: bold small/normal sans-serif; padding: 0 0 1px 0; text-align: left; }
+
+div.search input { background: #FFF; border: 1px solid #CCC; border-right: 1px solid #EEE; border-bottom: 1px solid #EEE; font: 14px sans-serif; padding: 3px 2px; width: 98%; }
+
+div.search input.searchButton { background: #FFF url(../../images/bg_button_mobile.gif) repeat-x 0 0; border: 1px solid #001F3E; color: #FFF; font: bold x-small/normal sans-serif; margin: 5px 0 0 0; padding: 4px 30px 4px 30px; width: auto; }
+
+/** Structure >> Footer */
+
+.footer { background: #000; float: left; padding-top: 2px; width: 100%; }
+
+.footer .box-copyright { float: left; width: 53%; }
+
+.wrapper p.basePowered,
+.wrapper p.copyright { color: #FFF; font-size: 9px; }
+
+.wrapper p.basePowered a, .wrapper p.basePowered a:visited { color: #1F61A3; }
+
+p.copyright { font-size: 8px; margin: 0 0 5px 0; }
+
+/** Structure >> Footer >> Language Flags */
+
+.languageFlags { float: right; margin-right: 5px; padding: 3px 0 0 5px; text-align: right; width: 42%; }
+
+.languageFlags img { border: 1px solid #404040; margin: 0 0 0 2px; padding: 1px; }
+
+.languageFlags .flagActive { border: 1px solid #FFF; }
+
+/** Structure >> Results */
+
+p.searchResults { border-bottom: 1px solid #BBB; padding: 6px 0 3px 10px; }
+
+p.generalResults { background: #FFF; border-bottom: 1px solid #CCC; padding: 6px 0 3px 5px; }
+
+p.generalResults a { font: bold small/normal sans-serif; }
+
+p.generalResults span { color: #666; font-weight: normal; }
+
+p.moreResults { margin-bottom: 5px; }
+
+p.moreResults a { color: #003365; font-weight: bold; }
+
+p.moreResults a:hover { text-decoration: underline; }
+
+/** Structure >> Results >> View */
+
+div.itemView { background: #FFF; border-bottom: 1px solid #D3D3D3; margin: 0; padding: 5px; }
+
+div.itemView h1 { color: #000; font: bold 12px/16px sans-serif; }
+
+div.itemView address { color: #464646; font: normal 10px/normal sans-serif; padding: 0 5px; }
+
+	div.itemView address.event-address { padding-top: 10px; }
+
+div.itemView p.phone { color: #3D7BB8; padding: 10px 5px; text-transform: capitalize; }
+
+	div.itemView p.phone span { color: #464646; font-weight: normal; }
+
+div.itemView .eventDateTime,
+div.itemView .articleInfo { color: #464646; }
+
+/** Structure >> Results >> Paging */
+
+.wrapper p.paging { padding: 5px 0 5px 0; text-align: center; }
+
+p.paging span { padding: 0 10px 0 10px; }
+
+p.paging a { font-weight: bold; }
+
+p.paging a:hover { text-decoration: underline; }
+
+p.no-border { border: none; }

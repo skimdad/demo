@@ -1,0 +1,62 @@
+
+/////////////////////////////////////////////////
+// Labels to DataPicker calendar
+/////////////////////////////////////////////////
+var EDIR_MONTH_ARRAY = new Array();
+EDIR_MONTH_ARRAY[0] = "Enero";
+EDIR_MONTH_ARRAY[1] = "Febrero";
+EDIR_MONTH_ARRAY[2] = "Marzo";
+EDIR_MONTH_ARRAY[3] = "Abril";
+EDIR_MONTH_ARRAY[4] = "Mayo";
+EDIR_MONTH_ARRAY[5] = "Junio";
+EDIR_MONTH_ARRAY[6] = "Julio";
+EDIR_MONTH_ARRAY[7] = "Agosto";
+EDIR_MONTH_ARRAY[8] = "Septiembre";
+EDIR_MONTH_ARRAY[9] = "Octubre";
+EDIR_MONTH_ARRAY[10] = "Noviembre";
+EDIR_MONTH_ARRAY[11] = "Diciember";
+
+var EDIR_MONTH_ABBREVIATION = new Array();
+EDIR_MONTH_ABBREVIATION[0]= "Ene";
+EDIR_MONTH_ABBREVIATION[1]= "Feb";
+EDIR_MONTH_ABBREVIATION[2]= "Mar";
+EDIR_MONTH_ABBREVIATION[3]= "Abr";
+EDIR_MONTH_ABBREVIATION[4]= "May";
+EDIR_MONTH_ABBREVIATION[5]= "Jun";
+EDIR_MONTH_ABBREVIATION[6]= "Jul";
+EDIR_MONTH_ABBREVIATION[7]= "Ago";
+EDIR_MONTH_ABBREVIATION[8]= "Sep";
+EDIR_MONTH_ABBREVIATION[9]= "Oct";
+EDIR_MONTH_ABBREVIATION[10]= "Nov";
+EDIR_MONTH_ABBREVIATION[11]= "Dic";
+
+var EDIR_DAYNAMES_ARRAY = new Array();
+EDIR_DAYNAMES_ARRAY[0] = "Domingo";
+EDIR_DAYNAMES_ARRAY[1] = "Lunes";
+EDIR_DAYNAMES_ARRAY[2] = "Mertes";
+EDIR_DAYNAMES_ARRAY[3] = "Mi&eacute;coles";
+EDIR_DAYNAMES_ARRAY[4] = "Jueves";
+EDIR_DAYNAMES_ARRAY[5] = "Viernes";
+EDIR_DAYNAMES_ARRAY[6] = "S&aacute;bado";
+
+
+var EDIR_DAYNAMES_ABBREVIATION = new Array();
+EDIR_DAYNAMES_ABBREVIATION[0] = "Dom";
+EDIR_DAYNAMES_ABBREVIATION[1] = "Lun";
+EDIR_DAYNAMES_ABBREVIATION[2] = "Mer";
+EDIR_DAYNAMES_ABBREVIATION[3] = "Mi&eacute;";
+EDIR_DAYNAMES_ABBREVIATION[4] = "Jue";
+EDIR_DAYNAMES_ABBREVIATION[5] = "Vie";
+EDIR_DAYNAMES_ABBREVIATION[6] = "S&aacute;b";
+
+
+
+var EDIR_DAYNAMES_MIN = new Array();
+EDIR_DAYNAMES_MIN[0] = "Do";
+EDIR_DAYNAMES_MIN[1] = "Lu";
+EDIR_DAYNAMES_MIN[2] = "Me";
+EDIR_DAYNAMES_MIN[3] = "Mi";
+EDIR_DAYNAMES_MIN[4] = "Ju";
+EDIR_DAYNAMES_MIN[5] = "Vi";
+EDIR_DAYNAMES_MIN[6] = "S&aacute;";
+/////////////////////////////////////////////////

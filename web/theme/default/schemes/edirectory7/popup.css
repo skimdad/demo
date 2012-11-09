@@ -1,0 +1,85 @@
+/**
+* eDirectory - Popups ( Modal boxes )
+*
+* This style sheet describes the structure and the main components
+* about eDirectory's interface
+*
+* @package			layout
+* @filesource		popup.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 05, 2011
+*			
+* WARNING: Always use the id "#TB_window" as hierarchy for Popup styles.
+*/
+
+/* Popups > body */
+
+body
+{ background:#F1F1F1; }
+
+/* Popups > modal content */
+
+.modal-content
+{ background:#F1F1F1; }
+	
+	.modal-content form span.comment
+	{ color: #8A8A8A; }
+	
+/* Popups > buttons */
+
+button
+{ background:#4E8100 url(images/structure/bg-button-action-profile.gif) repeat-x 0 0; color:#FFF; }
+	
+	button:focus, button:hover, button:active
+	{ color:#DDD; }
+	
+/** Popups > deal */
+
+	.deal h1
+	{ background:#E5E7E9; }
+	
+	.deal h2
+	{ border:none; color:#081C2A; }
+	
+	.deal h3
+	{ color:#081C2A; }
+	
+	.deal strong
+	{ color:#061826; }
+	
+/** Popups > rate */
+
+.modal-content .rate
+{ background:#F2F3F4; }	
+	
+/** Popups > slideshow */
+
+.slideshow li img
+{ border:3px solid #D0D5D8; }
+
+.slideshow li span
+{ color:#999; }
+	
+.slideshow .control
+{ background:#F2F3F4; }
+
+
+/** Contact form > form > form tags */
+		
+	.modal-content .form div .text, .modal-content .form div .textarea
+	{ border:1px solid #83919C; border-bottom-color:#B7C0C7; border-right-color:#B7C0C7; }
+	
+	.modal-content .form div label
+	{ color:#62707B; }
+
+/** Contact form > form > captcha */
+			
+	.modal-content .form .captcha img
+	{ border:1px solid #B7C0C7; }
+		
+/** Contact form > form > structure */
+	
+	.modal-content .form .action
+	{ background:#E5E7E9; border-top:1px solid #D0D5D8; }

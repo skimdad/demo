@@ -1,0 +1,14 @@
+* About to connect() to geoip.edirectory.com port 80
+*   Trying 184.106.207.229... * connected
+* Connected to geoip.edirectory.com (184.106.207.229) port 80
+> POST /getInformation.php HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+Host: geoip.edirectory.com
+Accept: */*
+Referer: DEFAULT_URL/test_geo.php
+Content-Length: 78
+Content-Type: application/x-www-form-urlencoded
+
+?info=201.42.135.179&v=v.9.4.00b&o=c938617c17644f02827c8f2c4eae62fa&debug=true* Empty reply from server
+* Connection #0 to host geoip.edirectory.com left intact
+* Closing connection #0

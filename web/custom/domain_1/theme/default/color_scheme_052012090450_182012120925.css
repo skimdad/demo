@@ -1,0 +1,580 @@
+
+/**
+* eDirectory - Color Scheme
+*
+* @package			design
+* @filesource		colorscheme.php
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2011, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 1, 2011
+*			
+*/
+
+/* STRUCTURE
+
+/**
+* Global Classes
+*/
+	
+/** Global classes > No Link */
+.no-link
+{ border-color:#<?=SCHEME_COLORTITLEBORDER?> !important; }
+
+/**
+* Global Definitions
+*/
+a:link,
+a:visited,
+a:active
+{ color:#083C88; }
+
+.list li a:link, .list li a:visited, .list li a:active { color:#083C88; font-size:11px; }
+	
+a img, .no-image
+{ border-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+	a:hover img, .no-image:hover
+	{ border-color:#083C88 !important; }
+    
+/**
+* Typography
+*/
+*
+{ font-family:Arial, Helvetica, Sans-serif; }
+
+h1, h2, h3, h4, h5
+{ color:#<?=SCHEME_COLORTITLE?> !important; border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+.detail h2, .level-detail .sidebar h2
+{ color:#<?=SCHEME_COLORTITLE?> !important; border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+
+
+/** Typography > Paragraph */
+p, 
+.label-field-account, 
+.browse-category li span,
+.standardForm td.TimageFile,
+.standardForm td.TaddImagetxt,
+.standardForm th.wrapcaption
+{ color:#<?=SCHEME_COLORTEXT?>; }
+
+/*Marker Spa Exception*/
+
+/** Typography > H2 */
+h2 .view-more:link,
+h2 .view-more:visited,
+h2 .view-more:active
+{ color:#083C88; }
+
+/*Marker Spa Exception*/
+
+/*Marker Spa Exception4*/
+
+#slider h2,
+#slider h2 a:link,
+#slider h2 a:visited,
+#slider h2 a:active
+{ color:#<?=SCHEME_COLORTITLE?>; }
+
+/*Marker Spa Exception4*/
+	
+/**************************************************************************************************\
+* Forms > Contact form
+* 
+* Form style for contact informations
+*/
+
+.contact-form
+{ background:#<?=SCHEME_COLORSLIDER?>; border-top-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+	.contact-form h2
+	{ border-bottom:none; }
+
+/** Contact form > form > form tags */
+.contact-form .form div label
+{ color:#<?=SCHEME_COLORTEXT?>; }
+
+/**
+* Body
+*/
+
+
+body { background-image: ; }
+
+body { background-repeat: ; }
+
+body { background-position:   }
+
+/**************************************************************************************************\
+* User Navbar
+* 
+* User navbar located at the top, fixed.
+*/
+
+
+
+/*Marker UserNavbarBackground*/
+
+.user-options li
+{ background:none; }
+
+/*Marker UserNavbarBackground*/
+
+.user-options li
+{ color:#<?=SCHEME_COLORUSERNAVBARTEXT?>; }
+
+	#user-navbar a:link,
+	#user-navbar a:visited,
+	#user-navbar a:active
+	{ color:#<?=SCHEME_COLORUSERNAVBARLINK?>; }
+	
+/*Marker UserNavbarBackground*/
+
+.language
+{ background-image:none; }
+
+/*Marker UserNavbarBackground*/
+
+/**************************************************************************************************\
+* Header
+* 
+* Header contents, search, advanced search, banner and other elements.
+*/
+
+
+
+
+	#navbar li a:link,
+	#navbar li a:visited,
+	#navbar li a:active
+	{ color:#<?=SCHEME_COLORNAVBARLINK?>; }
+			
+		#navbar li a:hover,
+		#navbar .menuActived a:link,
+		#navbar .menuActived a:visited,
+		#navbar .menuActived a:active
+		{ color:#<?=SCHEME_COLORNAVBARLINKACTIVE?>; }
+
+/**************************************************************************************************\
+* Button
+* 
+* Button properties
+*/
+
+#search input
+{ border-color:#<?=SCHEME_COLORSLIDER?>; color:#888; }
+
+#search input:focus
+{ border-color:#083C88; }
+
+/*Marker HappyTimes Exception*/
+
+.standardButton button, .content-faq .search button, .treeView .tableCategoriesBUTTONS button,
+button.input-button-form, .input-button-form button, .modal-content button
+{ background: #<?=SCHEME_COLORTITLE?> !important; }
+
+/*Marker HappyTimes Exception*/
+
+#search button:focus, #search button:hover, p.standardButton button:focus, 
+p.standardButton button:hover, .input-button-form button:focus, .input-button-form button:hover,
+input.input-button-form:hover, button.input-button-form:hover, .addImageForm:hover,
+.content-faq .search button:focus, .content-faq .search button:hover,
+table.standard-table td.treeView table.tableCategoriesADDED button:hover, .modal-content button:hover,
+.treeView .tableCategoriesBUTTONS button:hover
+{ color:#083C88; }
+
+/**************************************************************************************************\
+* Advanced Search
+* 
+* Advanced Search properties
+*/
+#advanced-search
+{ background:url(images/structure/bg-black-opacity-70.png) repeat; }
+
+	#advanced-search,
+	#advanced-search h4,
+	#advanced-search p,
+	#advanced-search label,
+	#advanced-search div
+	{ color:#<?=SCHEME_COLORMAINCONTENT?> !important; }
+	
+
+/**************************************************************************************************\
+* Content Structure
+* 
+* Content structure elements
+*/
+
+
+.content-main
+{ background:#<?=SCHEME_COLORMAINCONTENT?>; }
+
+.content-main
+{ border-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+/**************************************************************************************************\
+* Featured Items
+* 
+* Featured items style, structure and differences
+*/
+
+.featured-event .featured-item .date
+{ background:#<?=SCHEME_COLORSLIDER?>; }
+
+	.featured-event .featured-item .date .calendar
+	{ background:#<?=SCHEME_COLORTITLEBORDER?>; }
+	
+	.featured-event .featured-item .date .calendar .month
+	{ background:#083C88; }
+	
+	.featured-event .featured-item .date .calendar .day
+	{ color:#<?=SCHEME_COLORTEXT?>; }
+
+.featured-item
+{ border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?> !important;}
+		
+/**************************************************************************************************\
+* Content Miscelaneous
+* 
+* Misc items with special style on the content
+*/		
+
+/* Content misc > share box */
+
+.share-box
+{ background:#<?=SCHEME_COLORSLIDER?>; }
+
+.share-box ul li.close a:link,
+.share-box ul li.close a:visited,
+.share-box ul li.close a:active
+{ color:#083C88; }
+
+/* Content misc > Buttons */
+
+.button
+{ background:#<?=SCHEME_COLORSLIDER?>; }
+
+
+
+/** Content Misc > Default List */		
+.list li span
+{ color:inherit; }
+		
+/* Content misc > Browse by category */
+.browse-category li span,
+.browse-category li ul li span
+{ color:#<?=SCHEME_COLORTEXT?>; }
+
+.browse-category li ul li a:link,
+.browse-category li ul li a:visited,
+.browse-category li ul li a:active
+{ color:#083C88; }
+
+/* Content misc > Category List */
+.list-category li a:link,
+.list-category li a:visited,
+.list-category li a:active
+{ color:#083C88; }
+
+/* Content misc > Pagination */
+
+.pagination
+{ background:#<?=SCHEME_COLORSLIDER?>; border-top-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+	.pagination li
+	{ color:inherit; }
+
+/* Content misc > Filter */
+.filter
+{ color:inherit; }
+
+/**************************************************************************************************\
+* Footer
+* 
+* Footer content, classes, styles.
+*/
+
+
+
+	#footer-wrapper p, #footer-wrapper li, #footer-wrapper h3, #footer-wrapper h5 { color:#<?=SCHEME_COLORFOOTERTEXT?> !important; }
+
+
+	
+	#footer-wrapper a:link,	#footer-wrapper a:visited, #footer-wrapper a:active	{ color:#<?=SCHEME_COLORFOOTERLINK?> !important; }
+	
+/**************************************************************************************************\
+* Advertisement
+* 
+* Advertisement classes for banners on Header, Content and Sidebar.
+*/
+	
+/** Advertisement > Header */
+#header .advertisement .info
+{ background:url(images/structure/bg-black-opacity-70.png) repeat; }
+
+	#header .advertisement .info *
+	{ color:#<?=SCHEME_COLORMAINCONTENT?> !important; }
+	
+/** Advertisement > Sponsored */
+.sponsored:hover
+{ border-color:#083C88; }
+
+	.sponsored .url
+	{ color:#083C88; }
+		
+/**************************************************************************************************\
+* Slider
+* 
+* Slider style ( check the structure on the .css file in the scripts folder )
+*/
+
+#slider .right
+{ background:#<?=SCHEME_COLORSLIDER?>; }
+
+	#slider .right h2
+	{ border:none; }
+	
+
+/**************************************************************************************************\
+* Sidebar Differences
+* 
+* Differences for the items with special style on the sidebar
+*/
+.sidebar h2
+{ border-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+/**************************************************************************************************\
+* Accordion
+* 
+* Accordion style for the Triggers, links and Titles
+*/
+
+#accordion li h3,
+#accordion li.active h3
+{ background-color:#<?=SCHEME_COLORSLIDER?>; border-top-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+/*Marker Spa Exception2*/
+
+	#accordion li h3 a:link,
+	#accordion li h3 a:visited,
+	#accordion li h3 a:active
+	{ color:#<?=SCHEME_COLORTITLE?>; }
+	
+/*Marker Spa Exception2*/
+	
+/**************************************************************************************************\
+* Calendar
+* 
+* Calendar style
+*/
+.table-calendar
+{ background:#<?=SCHEME_COLORSLIDER?>; }
+
+	.table-calendar .calendar-header 
+	{ background:#<?=SCHEME_COLORSLIDER?> url(images/structure/bg-black-opacity-15.png) repeat; border-bottom:none; }
+	
+/** FRONT **/
+	
+/**************************************************************************************************\
+* Special Deal
+* 
+* Special Deal items style and structure
+*/
+
+.special-deal .right
+{ background:#<?=SCHEME_COLORSLIDER?>; }
+
+.special-deal h2
+{ border-bottom:none; }
+
+.special-deal .info
+{ background:none; display:block; float:none; padding:0 0 5px 0; }
+
+/** RESULTS **/
+
+/**************************************************************************************************\
+* Summary
+* 
+* Summary items style, structure and differences
+*/	
+
+
+
+.summary { border-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+/** Summary > share */
+
+.summary .share
+{ background:#<?=SCHEME_COLORSLIDER?>; border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+/** Summary > items > title */		
+.summary .title h3 a.map-link:link,
+.summary .title h3 a.map-link:visited,
+.summary .title h3 a.map-link:active
+{ color:#083C88; }
+
+/** Summary > items > info */	
+.summary .info address
+{ color:#<?=SCHEME_COLORTEXT?>; }
+
+/** Summary > items > deal */		
+
+.summary .deal h4
+{ background:#<?=SCHEME_COLORSLIDER?>; }
+
+	.summary .deal h4 a:link,
+	.summary .deal h4 a:visited,
+	.summary .deal h4 a:active
+	{ color:#083C88; }
+
+/**************************************************************************************************\
+* Summary Backlink
+* 
+* Summary item special style for Backlink
+*/
+
+.summary-backlink
+{ border-color:#<?=SCHEME_COLORTITLE?>; }
+
+	.summary-backlink .share
+	{ background:#<?=SCHEME_COLORTITLE?>; border-bottom-color:#<?=SCHEME_COLORTITLE?>; border-top-color:#083C88; }
+
+/** DETAIL **/
+
+/** Detail > Share Bar */
+
+.share
+{ background:#<?=SCHEME_COLORSLIDER?>; border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?>; border-top-color:#<?=SCHEME_COLORTITLEBORDER?>;  }
+
+/** Detail > Items > Info */
+.detail address
+{ color:#<?=SCHEME_COLORTEXT?>; }
+
+/** Detail > Info **/
+
+.detail .deal .info
+{ background:#<?=SCHEME_COLORSLIDER?>; }
+
+/** Detail > Info > Counter **/
+
+.detail .deal .counter
+{ background:#<?=SCHEME_COLORSLIDER?> url(images/structure/bg-black-opacity-15.png) repeat; border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+		
+	.detail .deal .counter .countdown_section span
+	{ color:#<?=SCHEME_COLORTEXT?>; }
+	
+	.detail .deal .counter .countdown_section strong
+	{ color:#<?=SCHEME_COLORTEXT?>; }
+
+/** DETAIL > DETAIL DEAL DIFFERENCES > IMAGE **/
+
+.detail .deal .image .no-link
+{ border-color:#<?=SCHEME_COLORSLIDER?> !important; }
+
+/**************************************************************************************************\
+* Sidebar
+* 
+* Sidebar structure and elements
+*/
+
+/** Featured Listing **/
+
+.sidebar .featured-listing .featured-item address
+{ clear:both; color:#<?=SCHEME_COLORTEXT?>; }
+	
+/** BLOG **/	
+
+.summary { color:#<?=SCHEME_COLORTEXT?>; }
+
+.summary .actions
+{ background:#<?=SCHEME_COLORSLIDER?>; border-bottom-color:#083C88; color:#<?=SCHEME_COLORTEXT?>; }
+
+/** ADVERTISE **/
+
+
+
+/** Level > misc */
+.level .price
+{ color:#<?=SCHEME_COLORTITLE?>; }
+
+/** Members **/
+
+.standard-tabletitle
+{ color:#<?=SCHEME_COLORTITLE?> !important; border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+.memberMenu ul li a, .memberMenu ul li a:visited
+{ color:#<?=SCHEME_COLORTITLE?> !important; }
+
+div.formFieldsLogin
+{ background:#<?=SCHEME_COLORSLIDER?> !important; }
+
+.content-faq .search input
+{ border-color:#<?=SCHEME_COLORSLIDER?> !important; }
+
+.content-faq .search input:focus
+{ border-color:#083C88 !important;}
+
+.general-item a.sublink-front-navbar, 
+.general-item a.sublink-front-navbar:visited,
+.general-item a.sublink-front-navbar:active
+{ color:#083C88 !important; }
+
+.tabs li.tabActived a, .tabs li.tabActived a:visited
+{ color:#<?=SCHEME_COLORTITLE?> !important; }
+
+table.levelTable th.levelTitle, table.levelTable td.levelTopdetail
+{ border-color:#<?=SCHEME_COLORTITLE?>; }
+
+table.levelTable th.levelTitle, table.standard-tableTOPBLUE th
+{ background:#<?=SCHEME_COLORTITLE?>; }
+
+table.levelTable td.levelTopdetail, table.levelTopdetail th
+{ background:#083C88;}
+
+/** Profile **/
+
+
+
+.standardSubTitle
+{ color:#<?=SCHEME_COLORTITLE?> !important; border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+/** Members Sitemap **/
+.sitemapList li.standardSubTitle 
+{ border-bottom-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+.sitemapList li.standardSubTitle a, .sitemapList li.standardSubTitle a:visited, .sitemapList li.standardSubTitle a:active
+{ color:#083C88; }
+
+/** Member Menu **/
+.memberMenu h2
+{ border-color:#<?=SCHEME_COLORTITLEBORDER?>; }
+
+
+
+/*Marker ImageActive*/
+
+#navbar .menuActived
+{ background-image:url(http://test.dealcloudusa.com/custom/domain_1/theme_images/cityguide_active.png) !important; }
+
+/*Marker ImageActive*/
+
+
+
+.featured-event .featured-item .date, .loginOptions, table.standard-table th, table.standard-table td,
+	div.formFieldsLogin label, div.formFieldsLogin span.automaticLogin, .summary
+	{ color:#<?=SCHEME_COLORTEXT?>; }
+	
+
+
+
+
+
+
+.button-call a, .button-call a:visited, .button-send a, .button-send a:visited
+	{ background-color:transparent; }
+    
+.categoryTreeview .categorySuccessMessage, .categoryTreeview .categoryErrorMessage,
+.treeView .categoryAdd, .treeView .categoryAdd:visited
+{ background:#<?=SCHEME_COLORCONTENTBACKGROUND?> !important; }

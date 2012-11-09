@@ -1,0 +1,95 @@
+/**
+* eDirectory - Blog Module
+*
+* @package			layout
+* @filesource		blog.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 11, 2011
+*			
+*/
+
+/** Blog Post Summary */
+
+.summary
+{ color:#333; }
+
+	.summary  h2
+	{ background:none; border:none; }
+	
+		.summary h2 a:link, .summary h2 a:visited, .summary h2 a:active
+		{ color:#7B3400; } 
+		
+	.summary .actions
+	{ background:#F1F6DA; border-bottom:1px solid #BCCC73; color:#666; }
+	
+		.summary .actions .right
+		{ color:#000; }
+	
+	.summary p, .summary li, .summary span
+	{ color:#333; }
+	
+/** Blog Post Summary > Results info */
+
+.search-info
+{ border-bottom:none; }
+
+	.search-info strong
+	{ color:#061826; }
+
+/** Detail > items > misc */
+	
+	.detail h1
+	{ color:#061826; }
+
+/** Detail > comments */
+
+	.detail .comment
+	{ border-top:1px solid #E6E8E9; }
+		
+		.detail .comment .no-image
+		{ background:#FFF url(images/iconography/icon-user-thumb.gif) no-repeat 0 0; }
+		
+		.detail .comment .reply-comment:link, .detail .comment .reply-comment:visited, .detail .comment .reply-comment:active
+		{ color:#FF510C; }
+		
+		.detail .comment .reply
+		{ background:url(images/structure/bg-reply.gif) no-repeat left bottom; border-left:1px solid #C8CED2; }
+				
+			.detail .comment .reply p
+			{ color:#888; }
+	
+/** Detail > share bar */
+
+.share
+{ background:#CFDE88; border-bottom:1px solid #BCCC73; border-top:1px solid #BCCC73; }
+	
+	.share ul li
+	{ color:#818D97; }
+
+/** Blog Post Detail / Contact Form */	
+
+.contact-form
+{ background:#E4F4F5; border-top:1px solid #E3E3E3; }
+
+	.contact-form h2
+	{ border-bottom-color:#DDD; }
+
+/** Contact form > form > form tags */
+
+	.contact-form .form div .text, .contact-form .form div .textarea
+	{ border:1px solid #83919C; border-bottom-color:#B7C0C7; border-right-color:#B7C0C7; }
+	
+	.contact-form .form div label
+	{ color:#62707B; }
+
+/** Contact form > form > captcha */
+			
+	.contact-form .form .captcha img
+	{ border:1px solid #B7C0C7; }
+
+/** Sidebar > Blog Item */
+		
+	.sidebar .blog-item-members .no-image
+	{ background:url(images/iconography/icon-user-thumb.gif) no-repeat 0 0; }

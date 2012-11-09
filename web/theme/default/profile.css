@@ -1,0 +1,117 @@
+/**
+* eDirectory - Profile Pages
+*
+* @package			layout
+* @filesource		profile.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+/** Detail Misc > Structure */
+
+.sidebar
+{ float:left; padding:30px 28px 30px 0; }
+
+.content
+{ padding:30px 0 !important; width:710px; }
+
+.content-profile
+{ padding:0 0 15px 0; }
+
+.content-main .no-image
+{ background:#FFF url(images/iconography/icon-user-thumb.gif) no-repeat 0 0; height:50px; width:50px; }
+
+.filter .left
+{ width:190px; }
+
+/** Items Summary */
+
+.item-summary
+{ padding:15px 0 0 0; }
+
+	.item-summary h3
+	{ font-size:14px; font-weight:bold; padding-top:0; }
+	
+	.item-summary .delete
+	{ background:#FDDEDA; border-top:1px solid #8A110C; color:#8A110C; display:block; font-size:9px; float:right; padding:2px; text-transform:uppercase; }
+
+/** Featured Items */
+
+/** Featured > featured reviews */
+
+.featured-review .featured-item
+{ clear:left; float:none; width:auto; }
+
+/** Tab navigation */
+
+.profile-tabs
+{ height:30px; overflow:hidden; padding:5px 0 0 15px; }
+
+	.profile-tabs li
+	{ background:#D7DBDF; border-top:2px solid #F1F1F1; display:block; float:left; height:28px; margin:0 1px 0 0; padding:0 20px; }
+	
+		.profile-tabs li a:link,
+		.profile-tabs li a:visited,
+		.profile-tabs li a:active
+		{ color:#081C2A; display:block; font-size:11px; line-height:28px; text-align:center; }
+		
+		.profile-tabs li.active
+		{ background:#081C2A; border-top:2px solid #FF4800; }
+		
+			.profile-tabs li.active a:link,
+			.profile-tabs li.active a:visited,
+			.profile-tabs li.active a:active
+			{ color:#FFF; }
+			
+/** Members Table */
+
+table.standard-table
+{ width:100%; }
+
+table.standard-table th,
+table.standard-table td
+{ color:#62707B; }
+
+table.standard-table .httpInput
+{ width:388px !important; }
+
+p.standardButton
+{ float:left; margin:0 10px 0 0; }
+
+.btAdd
+{ height:auto; margin-bottom:30px; overflow:hidden; padding:15px 0 0 257px; }
+			
+/** Sidebar */
+
+/* User info > misc */
+
+.user-info p
+{ margin:0 0 6px 0; }
+
+.user-info img
+{ border:3px solid #D0D5D8; float:left; margin:0 10px 10px 0; }
+
+.user-info .edit
+{ font-style:italic; }
+
+.user-info p span
+{ color:#666; display:block; font-style:italic; }
+
+/* User info > No image */
+
+.user-info .no-image
+{ background:#E7E8E8 url(images/iconography/icon-user.gif) no-repeat center; float:left; height:100px; margin:0 10px 10px 0; width:100px; }
+
+/* User info > Twitter differences */ 
+
+.user-info .last-tweets .loading
+{ background:url(images/iconography/icon-loading-content.gif) no-repeat center; }
+
+.user-info .last-tweets ul li a
+{ color:#999; }
+
+.user-info .last-tweets ul li span a
+{ color:#004276; }

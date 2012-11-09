@@ -1,0 +1,322 @@
+/**
+* eDirectory - Result Pages ( Modules )
+*
+* @package			layout
+* @filesource		results.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+/** Results Misc > Structure */
+
+a img
+{ border:none; }
+
+a:hover img
+{ border:none; }
+
+.content
+{ padding-top:0; }
+
+.content-main
+{ display:block; padding:15px 0 15px 0; }
+
+.content-top .featured
+{ padding:0; }
+
+.sidebar
+{ float:left; padding:25px 5px 30px 0; }
+
+	.sidebar h2
+	{ border:none; color:#ED2E9F; font-family:"Futura", arial, helvetica; }
+		
+/** Browse by Category */
+
+.browse-category
+{ background:#EAEAEB; border-top:1px solid #B6BEC5; height:1%; margin-top:20px; overflow:hidden; padding:15px; }
+
+	.browse-category li
+	{ float:left; padding:0 30px 8px 0; width:196px; }
+	
+		.browse-category li span
+		{ color:#62707B; font-style:italic; }
+		
+		.browse-category li.last
+		{ padding-right:0; }
+		
+	.browse-category li ul
+	{ padding:4px 0 4px 10px; }
+		
+		.browse-category li ul li
+		{ padding:1px 0; width:190px; }
+			
+			.browse-category li ul li a:link,
+			.browse-category li ul li a:visited,
+			.browse-category li ul li a:active
+			{ color:#447DAA; }
+			
+				.browse-category li ul li span
+				{ color:#536979; }
+				
+/** Results Info */	
+
+.search-info
+{ background:none !important; border-bottom:none; color:#636363; font-family:Arial, Helvetica, sans-serif; font-size:12px; margin-bottom:0; padding:10px 0 0 0; text-transform:none; }
+
+	.search-info strong
+	{ color:#111; font-size:14px; font-weight:normal; }
+	
+/** Summary */	
+
+.summary
+{ float:left; height:1%; margin:15px 7px 15px 7px; overflow:hidden; position:relative; }
+
+.summary-modules
+{ margin:0 0 30px; }
+
+.content-general .summary
+{ margin-bottom:20px; width:100%; }
+
+	.content-general .summary .left
+	{ float:none; margin:0 auto; }
+
+/** Summary > share */
+
+	.summary .share
+	{ background:#DBDBDB; border-bottom:1px solid #FFF; height:27px; overflow:hidden; padding:0 10px 0 10px; }
+		
+		.summary .share .share-actions
+		{ float:right; }
+		
+		.summary .share-social
+		{ float:left; }
+		
+		.summary-modules .share-social
+		{ padding-bottom:5px; }
+		
+			.summary .share-social li
+			{ padding:0 0 0 10px; }
+		
+		.summary .share ul li,
+		.summary .share-social li
+		{ color:#818D97; display:block; float:left; font-size:10px; line-height:27px; padding:0 2px; text-transform:uppercase; }
+		
+			.summary .share ul li a, .summary .share ul li a:visited,
+			.summary .share-social li a, .summary .share-social li a:visited
+			{ color:#636363; }
+		
+			.summary .share ul li.icon,
+			.summary .share-social li.icon
+			{ padding:2px 2px 2px 1px; }
+		
+			.summary .share ul li img,
+			.summary .share-social li img
+			{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; border:none; }
+				
+/** Summary > structure */
+	
+	.summary .left
+	{ padding-right:0; position:relative; width:320px; }
+	
+	.summary .right
+	{ padding-left:0; width:240px; }
+	
+	.summary .full
+	{ border-bottom:1px solid #D6D6D6; height:1%; overflow:hidden; padding-bottom:15px; }
+	
+/** Summary > items > title */
+
+	.summary .title
+	{ clear:both; display:block; padding:8px 0 3px; }
+	
+	.summary .full .title, .summary-deal .title
+	{ clear:none; display:inline-block; padding:0 0 10px; }
+	
+		.summary .title h3
+		{ color:#0072BC; font-size:16px; font-weight:normal; padding-bottom:10px; padding-top:0; text-transform:uppercase; }
+		
+			.summary .title .map
+			{ display:inline !important; }
+			
+				.summary .title h3 a.map-link:link,
+				.summary .title h3 a.map-link:visited,
+				.summary .title h3 a.map-link:active
+				{ color:#0072BC; }
+				
+					.summary .title h3 a.map-link:hover
+					{ text-decoration:none; }
+					
+/** Summary > items > image */
+
+	.summary .image
+	{ margin:0; }
+	
+	.summary .full .image
+	{ float:left; }
+	
+		.summary .image a img
+		{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+		
+/** Summary > items > rate */
+		
+	.summary .rate
+	{ clear:both; height:1%; overflow:hidden; padding:2px 8px; width:304px; }
+	
+		.summary .rate .rate-stars
+		{ height:1%; overflow:hidden; }
+	
+		.summary .rate img
+		{ float:left; height:13px; margin:0 1px 0 0; width:13px; }
+		
+		.summary .rate img
+		{ -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; }
+		
+		.summary .rate a,
+		.summary .rate span
+		{ color:#FFF; font-size:10px; font-style:italic; float:right; text-align:center; }
+		
+		.summary .rate a.star-rating
+		{ float:left; }
+		
+			.summary .rate p
+			{ clear:both; padding:2px 0 0 0; }
+		
+				.summary .rate p a
+				{ color:#FF510C; font-style:normal; font-weight:bold; float:none; }
+				
+	.summary .review
+	{ background:url(images/structure/bg-results-review.png) repeat-x 0 0; position:absolute; top:164px; width:320px; }
+	
+	.summary-modules .review
+	{ background:none; margin-bottom:10px; position:inherit; }
+	
+		.summary-modules .rate
+		{ padding:0; width:auto; }
+		
+			.summary-modules .rate a, .summary-modules .rate span
+			{ color:#636363; float:none; }
+				
+/** Summary > items > check in */
+
+	.summary .check-in
+	{ margin:4px 0 0 0; padding:4px 10px 0 0; text-align:right; }
+	
+		.summary .check-in a:link,
+		.summary .check-in a:visited,
+		.summary .check-in a:active
+		{ font-size:10px; font-style:italic; font-weight:bold; }
+		
+/** Summary > items > info */
+		
+	.summary .info
+	{ background:url(images/structure/bg-split-summary.gif) repeat-y 0 0; padding:0 0 0 15px; text-align:right; }
+	
+		.summary .full .info
+		{ background:none; float:left; padding:0; text-align:left; width:320px; }
+		
+		.summary .info address
+		{ color:#636363; line-height:16px; padding:0 0 10px 0; }
+		
+			.summary .info address span
+			{ display:block; }
+		
+		.summary .info strong
+		{ color:#636363;}
+		
+		.summary .info .claim
+		{ padding:10px 0 0 0; }
+		
+			.summary .info .claim a:link,
+			.summary .info .claim a:visited,
+			.summary .info .claim a:active
+			{ color:#FF510C; font-weight:bold; }
+	
+	.summary p
+	{ font-family:Verdana, Geneva, sans-serif; color:#898989; }
+
+/** Summary > items > badges */
+			
+	.summary .badges
+	{ clear:both; height:1%; overflow:hidden; padding:10px 0 0 0; }
+	
+		.summary .badges img
+		{ float:left; margin:0 10px 0 0; }
+		
+/** Summary > items > empty */
+
+	.summary .empty
+	{ height:32px; margin:0 0 8px 0; }	
+	
+/** Summary > Summary Deal differences */
+
+.summary-deal
+{ background:none; border:none; border-bottom:1px solid #D6D6D6; height:1%; margin:0 0 30px 0; overflow:hidden; padding:0 0 15px 0; position:relative; }
+
+	.summary-deal:last-child
+	{ border-bottom:none; }
+
+	.summary-deal .left, .full .left
+	{ height:auto; margin-right:15px; overflow:hidden; padding:0; width:320px; }
+	
+	.summary-deal .right, .summary .full .right
+	{ padding:0; width:335px; }
+	
+	.summary-deal .tag
+	{ background:url(images/iconography/icon-tag-results.png) no-repeat 0 0; padding-left:2px; position:absolute; right:0; top:10px; width:100px; }
+	
+		.summary-deal .tag .deal-tag
+		{ color:#FFF; font-size:20px; line-height:38px; padding-left:20px; text-align:center; }
+		
+		.summary-deal .deal-tag-sold-out
+		{ background:url(images/iconography/icon-tag-special-sold-out.png) no-repeat 0 0 !important; }
+		
+			.summary-deal .deal-tag-sold-out .deal-tag
+			{ font-size:14px; font-weight:bold; text-transform:uppercase; }
+		
+		.summary-deal .tag .deal-discount
+		{ color:#FFF; font-size:11px; line-height:21px; padding-left:18px; text-align:center; }
+	
+	.summary-deal .image
+	{ margin:0; float:right; }
+	
+	.summary-deal .share-social
+	{ clear:both; display:inline-block; float:none; padding:0 4px 5px 0; }
+	
+/** Summary Backlink */
+
+	.summary-backlink .backlink-content
+	{ background:#FFF; padding:3px 8px 8px; }
+	
+		.summary-backlink .title h3 a:link, .summary-backlink .title h3 a:visited, .summary-backlink .title h3 a:active,
+		.summary-backlink .title h3 a.map-link:link, .summary-backlink .title h3 a.map-link:visited, .summary-backlink .title h3 a.map-link:active
+		{ color:#ED2E9F; }
+
+/** Sidebar */
+
+/** Sidebar > google map definitions */
+
+.sidebar .map
+{ border:1px solid #CCC; height:335px; margin:0 0 25px 0; width:285px; }
+
+.sidebar .map-control
+{ height:22px; text-align:left; }
+
+	.sidebar .map-control a
+	{ display:block; font-size:10px; padding:7px 0 0 0; }
+	
+/** Level Preview */
+
+.level-preview .summary .no-link, .level-preview .level-summary .summary .rate-stars img
+{ border:0 none !important; }
+
+/** Summary Shadow */
+
+.summary-shadow
+{ background:url(images/structure/bg-image-border-results-shadow.png) no-repeat 0 bottom; display:inline-block; padding-bottom:15px; }
+
+	.summary-shadow div.image
+	{ background:url(images/structure/bg-image-border-results.png) no-repeat 0 0; height:170px; padding:10px; width:300px; }
+	

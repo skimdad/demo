@@ -1,0 +1,145 @@
+/**
+* eDirectory - Advertise Page
+*
+* @package			layout
+* @filesource		advertise.css
+* @author			Arca Solutions
+* @copyright		Copyright (c) 2009, Arca Solutions Inc.
+* @version			eDirectory 9.1
+* @since			October, 17, 2011
+*			
+*/
+
+/** Advertise Misc > Structure */
+
+.content
+{ padding-top:30px !important; }
+
+.content-main
+{ padding:15px !important; }
+
+/** Tab navigation */
+
+.tabs
+{ border-bottom:1px solid #E3E3E3; height:30px; overflow:hidden; padding:0 0 0 15px; }
+
+	.tabs li
+	{ background:#D7DBDF; border-top:2px solid #F1F1F1; display:block; float:left; height:28px; margin:0 1px 0 0; width:189px; }
+	
+		.tabs li a:link,
+		.tabs li a:visited,
+		.tabs li a:active
+		{ color:#081C2A; display:block; font-size:11px; line-height:28px; text-align:center; }
+		
+		.tabs li.active
+		{ background:#081C2A; border-top:2px solid #FF4800; }
+		
+			.tabs li.active a:link,
+			.tabs li.active a:visited,
+			.tabs li.active a:active
+			{ color:#FFF; }
+
+/** Level */
+
+.level
+{ clear:both; height:auto; overflow:hidden; padding:0 0 60px 0; }
+
+/** Level > misc */
+
+	.level h2.level-name
+	{ border-bottom-color:#648094; color:#081C2A; font-size:18px; margin-bottom:5px; }
+	
+	.level .preview-desc
+	{ clear:both; font-style:italic; font-size:10px; line-height:20px; text-align:right; }
+	
+	.level .price
+	{ color:#081C2A; font-size:14px; font-weight:bold; padding:12px 0; line-height:20px; }
+	
+	.level .button-profile
+	{ width:150px; }
+	
+	.level .banner-image
+	{ float:right; margin-top:30px; }
+	
+/** Level > info */
+
+.level-info
+{ float:left; padding:20px 0 0 0; width:222px; }
+	
+/** Level > summary */
+
+.level-summary
+{ float:left; padding:0 0 0 15px; width:710px; }
+
+	.level-summary .summary
+	{ margin:0; }
+	
+		.level-summary .summary .share
+		{ border-top:none; }
+		
+			.level-summary .summary .image img
+			{ border:3px solid #D0D5D8; cursor:default; }
+			
+			.level-summary .summary .image .review img
+			{ border:none; }
+
+/** Level > detail */
+
+.level-detail
+{ clear:both; height:auto; overflow:hidden; width:948px; }
+
+	.level-detail .preview-desc
+	{ padding:30px 0 0 0; }
+
+	.level-detail .content
+	{ padding-top:0 !important; width:695px; }
+	
+		.level-detail .detail
+		{ background:#FDFDFD; }
+	
+	.level-detail .sidebar
+	{ padding:0 !important; }
+	
+		.level-detail .sidebar .map
+		{ margin-top:0 !important; }
+		
+/** Level > detail > Deals differences */
+
+.level-detail .deal .image img,
+.level-detail .deal .no-image
+{ height:172px; width:305px; }
+
+.level-detail .deal .deal-tag .price
+{ color:#FFF; font-weight:normal; }
+		
+/** Level > level preview */
+
+.level-preview
+{ background:#FFF; padding:15px; }
+
+	.level-preview .level-summary
+	{ padding-left:0; }
+
+		.level-preview .preview-desc
+		{ text-align:left; }
+		
+/** Level > level banner */
+
+.level-banner
+{ background:#F1F1F1; }
+
+	.level-banner img
+	{ margin:0 auto; }
+	
+/** Advertise Misc > Error message difference */
+
+.errorMessage
+{ margin:30px; }
+
+/** Preview > Site Manager Area */
+
+.import-body
+{ _width:960px; }
+
+	.import-body .level-preview
+	{ _width:940px; }
